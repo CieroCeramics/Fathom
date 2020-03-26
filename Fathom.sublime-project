@@ -1,0 +1,65 @@
+{
+
+ "folders":
+    [
+        {
+            "path": "include",
+            //"folder_include_patterns": [".h"],
+           // "follow_symlinks": true
+        },
+        {
+            // "path": "docs",
+            // "name": "Documentation",
+            // "file_exclude_patterns": ["*.css"]
+        }
+    ],
+	//C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Default.props
+"msbuild_selector":
+{
+//	# Path to MSBUILD
+	//"command": "path/to/msbuild.exe",
+
+	//# An optional list of "root projects" a.k.a solutions in the VS world that
+	//# will be added to the panel to build
+	"projects": [
+		{
+			// "name": "Fathom",
+			// "file_name": "Fathom.build.proj"
+			
+		}
+	],
+
+//	# List of platforms you want to be able to build on.
+//	# Default is Win32/x64
+	"platforms":
+	[
+		"x64",
+		"Win32"
+	],
+
+//	# List of configuration you want to be able to build on.
+	//# Default is Release/Debug
+	"configurations":
+	[
+		"Debug",
+		"Release"
+	],
+
+	//# A mandatory list of glob patterns to find the sub-projects
+	//# (named simply projects in VS)
+	"patterns":	[
+		"Fathom.vcxproj"
+		
+	],
+
+//	# Optional environment variables that will be passed to MSBuild process
+	"environment": {
+	"$(VCTargetsPath)": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Microsoft/VC/v160",
+	"CPLUS_INCLUDE_PATH" :"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um"
+	},
+
+//	# Regexp to match error (see build system documentation)
+	//# Default is "^\\s*(.+)\\(([0-9]+)\\)\\s*:\\s*(.*)"
+	"file_regex": "^\\s*(.+)\\(([0-9]+)\\)\\s*:\\s*(.*)"
+}
+}

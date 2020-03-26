@@ -1,0 +1,1171 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Main",
+				"MAIN_WINDOW_WIDTH\tfloat MAIN_WINDOW_WIDTH"
+			],
+			[
+				"return",
+				"Return"
+			],
+			[
+				"gam",
+				"GameManager\tGameManager"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main2.cpp",
+			"settings":
+			{
+				"buffer_size": 12547,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Include.h",
+			"settings":
+			{
+				"buffer_size": 176,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nSublimeLinter-clang\n-------------------\n\n  SublimeLinter-clang\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to clang.\n  \n  Please read the installation instructions at:\n  \n  https://github.com/SublimeLinter/SublimeLinter-clang\n",
+			"settings":
+			{
+				"buffer_size": 328,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "MS BUILD CMD\n\ncmake [] -S \"C:\\Users\\red_w\\Projects\\freeglut-3.2.1\" -B \"C:\\Users\\red_w\\Projects\\OpenGL\\freeglut\" -G \"Visual Studio 15 2017\" A- Win32\"\nCL  /I \\INCLUDE \n\nmsbuild fathom.vcxproj -p:Platform=\"win32\" -clp:ErrorsOnly",
+			"settings":
+			{
+				"buffer_size": 225,
+				"line_ending": "Windows",
+				"name": "MS BUILD CMD"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "GDB Callstack",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "GDB Breakpoints",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "GDB Threads",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "GDB Variables",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "/C/Users/red_w/Projects/Fathom/Fathom.sln",
+			"settings":
+			{
+				"buffer_size": 1421,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "dump\n\n\nold init \n\t\tvoid Init()\n{\n\t// FBOs and new shaders\n\t//sceneFBO = aFBO.CreateFBO(aFBO, 2,1,1,1);\n\n\t{\n\t\tconst char *vert = \"Shaders/passThru_v.glsl\";\n\t\tconst char *frag = \"Shaders/uniformColour_f.glsl\";\n\n\t\tunsigned int lightVS=aShader.GLSLVertexShaderFromFile(vert);\n\t\tunsigned int lightFS=aShader.GLSLFragmentShaderFromFile(frag);\n\t\t\n\t\tlightingProgram = aShader.GLSLProgram(lightVS,lightFS);\n\n\t\t//modelViewProjMatrix.getUniformLocation(lightingProgram, \"modelViewProj\");\n\t\tlight1.setUniformLocations(lightingProgram);\n\t\tlpMVP      = glGetUniformLocation(lightingProgram,\"modelViewProj\") ;\n\t\tglGetError();\n\t\tlp_colourTex = glGetUniformLocation(lightingProgram, \"colourTex\");\n\t\tlp_globAmb = glGetUniformLocation(lightingProgram,\"globalAmbient\");\n\t\tlp_lightCol=  glGetUniformLocation(lightingProgram, \"lightColour\" ) ;\n\t\tlp_lightPos=  glGetUniformLocation(lightingProgram, \"lightPosition\")  ;\n\t\tlp_eyePos  = glGetUniformLocation(lightingProgram,  \"eyePosition\")  ;\n\t\t//toon_inputImage = glGetUniformLocation(toonProgram, \"inputImage\");\n\t\t//toon_qmap = glGetUniformLocation(toonProgram, \"qmap\");\n\t}\n\n\t//{\n\t//\tconst char *frag = \"resource/shaders/edge_f.glsl\";\n\t//\tedgeProgram = GLSLProgramFromFiles(0,0,0,  1,&frag,0);\n\n\t//\tedge_inputColour = glGetUniformLocation(edgeProgram, \"inputColour\");\n\t//\tedge_inputNormal = glGetUniformLocation(edgeProgram, \"inputNormal\");\n\t//\tedge_inputDepth = glGetUniformLocation(edgeProgram, \"inputDepth\");\n\t//\tedge_pixelSize = glGetUniformLocation(edgeProgram, \"pixelSize\");\n\t//}\n\n\n\n\t// init image library and load images\n\tilInit();\n\tiluInit();\n\tilutInit();\n\tilutRenderer(ILUT_OPENGL);\n\n}\n",
+			"settings":
+			{
+				"buffer_size": 1622,
+				"line_ending": "Windows",
+				"name": "dump"
+			}
+		},
+		{
+			"file": "/F/Users/100429591/desktop/buckstein2/TestProjectGLSL/TestProjectGLSL/main.cpp",
+			"settings":
+			{
+				"buffer_size": 6769,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/red_w/Projects/GLSLFathom/main.cpp",
+			"settings":
+			{
+				"buffer_size": 5894,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/C++/C++ Single File.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++11/C++11.sublime-build",
+					""
+				],
+				[
+					"Packages/C++11/C++11.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++11/C++11.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					""
+				],
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					"All Syntaxes"
+				],
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					"Performance"
+				],
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					"Regex Compatibility"
+				]
+			],
+			[
+				"Packages/Default/Syntax Tests.sublime-build",
+				"All Syntaxes"
+			]
+		]
+	],
+	"build_varint": "Run",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"toggle s",
+				"SublimeLinter: Toggle Highlights"
+			],
+			[
+				"sublimelin",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"c++",
+				"Set Syntax: C++11"
+			],
+			[
+				"error",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"set syntax c++",
+				"Set Syntax: C++11"
+			],
+			[
+				"high",
+				"Set Syntax: High Level SL"
+			],
+			[
+				"highlig",
+				"Highlight Build Errors: Show build errors"
+			],
+			[
+				"toggle hi",
+				"SublimeLinter: Toggle Highlights"
+			],
+			[
+				"build",
+				"MSBuildSelector: Build project"
+			],
+			[
+				"gdb",
+				"SublimeGDB: Continue"
+			],
+			[
+				"lint",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"syntax c++",
+				"Set Syntax: C++"
+			],
+			[
+				"gdb ",
+				"GoGdb: ShowDebug"
+			],
+			[
+				"LAYOUT",
+				"Layout: Split Current Pane Vertical"
+			],
+			[
+				"LAY",
+				"Layout: Split Current Pane Vertical"
+			],
+			[
+				"lay",
+				"Layout: Split Current Pane Vertical"
+			],
+			[
+				"layou",
+				"Layout: Destroy Current Pane"
+			],
+			[
+				"layout",
+				"Layout: Split Current Pane Horizontal"
+			],
+			[
+				"debug",
+				"SublimeGDB: Start Debugging"
+			],
+			[
+				"subl",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"IN",
+				"Indexing Status"
+			],
+			[
+				"pack",
+				"Package Control: Add Repository"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"package co",
+				"Package Control: Add Repository"
+			],
+			[
+				"add r",
+				"Package Control: Add Repository"
+			],
+			[
+				"Intall Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control",
+				"Package Control: Add Channel"
+			],
+			[
+				"package",
+				"Package Control: Add Channel"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 129.0,
+		"history":
+		[
+			"where \"csharplint\"",
+			"where charplint,",
+			"where csharplint"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/red_w/Projects/Fathom/Fathom/Shader.cpp",
+		"/C/Users/red_w/Projects/Fathom/Fathom/main2.cpp",
+		"/C/Users/red_w/Resources/AHK/focuswindow.ahk",
+		"/C/Users/red_w/AppData/Roaming/Sublime Text 3/Packages/GoGdb/GoGdb.sublime-settings",
+		"/C/Users/red_w/Projects/Fathom/Fathom/Fathom.vcxproj",
+		"/C/Users/red_w/Projects/Fathom/Fathom/Fathom.sublime-project",
+		"/C/Users/red_w/Projects/Fathom/Fathom/Toon.cpp",
+		"/F/Users/100429591/desktop/Bloom/TestProjectGLSL/TestProjectGLSL/main(2).cpp",
+		"/C/Users/red_w/Projects/Fathom/Fathom/Debug/Fathom.tlog/CL.write.1.tlog",
+		"/C/Program Files (x86)/AIMP/Skins/Light Glass by TORNADO-GT.acs3",
+		"/C/Users/red_w/Resources/Windows Registry Editor Version 5.00.reg",
+		"/C/Users/red_w/Projects/OpenGL/freeglut-3.2.1/README.win32",
+		"/C/Users/red_w/Projects/OpenGL/freeglut-3.2.1/FreeGLUTConfig.cmake.in",
+		"/C/Users/red_w/Projects/OpenGL/freeglut-3.2.1/freeglut.vcxproj",
+		"/C/Users/red_w/Projects/OpenGL/freeglut-3.2.1/config.h.in",
+		"/C/Users/red_w/Projects/OpenGL/freeglut/freeglut.vcxproj",
+		"/C/Users/red_w/Projects/OpenGL/freeglut/INSTALL.vcxproj",
+		"/C/Users/red_w/Projects/OpenGL/freeglut/ALL_BUILD.vcxproj",
+		"/C/Users/red_w/Resources/AHK/windowget.ahk",
+		"/C/Users/red_w/Rainmeter/Skins/docuget.ini",
+		"/C/Users/red_w/Projects/OpenGL/freeglut-3.2.1/README.cmake",
+		"/C/Users/red_w/AppData/Roaming/Rainmeter/Rainmeter.ini",
+		"/C/Users/red_w/Rainmeter/Skins/Cityscapes/Background/ResolutionBGs/1920.ini",
+		"/C/Users/red_w/Resources/AHK/ahkfocus.ahk",
+		"/C/Users/red_w/AppData/Roaming/AIMP/Skins/Koyna_RN.acs4",
+		"/C/Users/red_w/Rainmeter/Skins/Galaxy Suite/Clock/Clock.ini",
+		"/C/Users/red_w/AppData/Roaming/AIMP/Skins/Telos v1.0.acs4.ini",
+		"/C/Users/red_w/Projects/OpenGL/freeglut-3.2.1/README",
+		"/C/Users/red_w/Projects/OpenGL/freeglut-3.2.1/doc/freeglut.html",
+		"/C/Users/red_w/Projects/GLSLFathom/Resource/passThru_v.glsl",
+		"/C/Users/red_w/Projects/GLSLFathom/Resource/uniformColour_f.glsl",
+		"/C/Users/red_w/Projects/GLSLFathom/Resource/passThru_f.glsl",
+		"/C/Users/red_w/Projects/GLSLFathom/Resource/fixedColour_f.glsl",
+		"/F/Users/100429591/desktop/TestProjectGLSL_wk11/TestProjectGLSL/main.cpp",
+		"/F/Users/100429591/desktop/buckstein2/TestProjectGLSL/TestProjectGLSL/main.cpp",
+		"/F/Users/100429591/desktop/VAOs and VBOs/TestProjectGLSL/main.cpp",
+		"/F/Users/100429591/desktop/Toon/TestProjectGLSL/main.cpp",
+		"/F/Users/100429591/desktop/Normal Mapping/TestProjectGLSL/main.cpp",
+		"/C/Users/red_w/Projects/Fathom/Fathom/lighting_f.glsl",
+		"/G/100429591_Backup/2012-09-07_11-18-40/Memeo/2012-09-07_11-18-40/_dcm/D_/Desktop/NGenesis - Copy/NGenesis/.Shader.cpp.dcm",
+		"/C/Users/red_w/AppData/Local/Temp/Rar$DIa36380.10633/extra.c",
+		"/F/Users/100429591/desktop/buckstein2/TestProjectGLSL/TestProjectGLSL/resource/passThru_v.glsl",
+		"/F/Users/100429591/desktop/buckstein2/TestProjectGLSL/TestProjectGLSL/resource/fixedColour_f.glsl",
+		"/F/Users/100429591/desktop/buckstein2/TestProjectGLSL/TestProjectGLSL/resource/uniformColour_f.glsl",
+		"/F/Users/100429591/desktop/Normal Mapping/TestProjectGLSL/resource/shaders/objectSpaceNormals_v.glsl",
+		"/C/Users/red_w/AppData/Roaming/Sublime Text 3/Packages/User/ZenTabs.sublime-settings",
+		"/C/Users/red_w/AppData/Roaming/Sublime Text 3/Packages/User/Default.sublime-keymap",
+		"/C/Users/red_w/AppData/Roaming/Sublime Text 3/Packages/Zen Tabs/ZenTabs.sublime-settings",
+		"/F/Users/100429591/desktop/Normal Mapping/TestProjectGLSL/resource/shaders/tangentSpaceNormals_v.glsl",
+		"/C/Users/red_w/Projects/Fathom/Fathom/GLSLFathom.h",
+		"/F/Users/100429591/desktop/Normal Mapping/TestProjectGLSL/resource/shaders/tangentSpaceNormals_f.glsl",
+		"/C/Users/red_w/Projects/Fathom/Fathom/main.cpp",
+		"/F/Users/100429591/desktop/Normal Mapping/TestProjectGLSL/resource/shaders/objectSpaceNormals_f.glsl",
+		"/C/Users/red_w/OneDrive/Documents/cvr",
+		"/C/Users/red_w/Projects/hope/MakeFile.am.make",
+		"/C/Users/red_w/OneDrive/Documents/Rainmeter/Skins/TECH-A/WEATHER/VClouds Weather - 3Days modified.ini",
+		"/C/Users/red_w/OneDrive/Documents/Rainmeter/Skins/Enigma/Taskbar/Launcher/Launcher2/Launcher2-Icon.ini",
+		"/C/Users/red_w/OneDrive/Documents/Rainmeter/Skins/Enigma/Taskbar/Launcher/Launcher.inc",
+		"/C/Users/red_w/Projects/OpenGL/EGL/EGL/src/egl.c",
+		"/C/Users/red_w/AppData/Local/Programs/Python/Python38-32/Lib/subprocess.py",
+		"/C/Users/red_w/OneDrive/Documents/Rainmeter/Skins/TECH-A/SETTINGS/variables - Copy.inc",
+		"/H/backup/Users/100429591/Desktop/all things programming/CgTut_Threetrue/CgTut_Three/fragment_texture.cg",
+		"/C/Users/red_w/OneDrive/Documents/Rainmeter/Skins/TinzSlideshow/Resizable/Slideshow.ini",
+		"/C/Users/red_w/Projects/hope/README",
+		"/C/Users/red_w/Projects/hope/src/main.c",
+		"/C/Users/red_w/OneDrive/Documents/Rainmeter/Skins/Enigma/Options/Options.ini",
+		"/C/Program Files (x86)/GnuWin32/bin/automake",
+		"/C/Program Files (x86)/GnuWin32/bin/autoconf",
+		"/C/Users/red_w/OneDrive/Documents/Rainmeter/Skins/Enigma/Taskbar/Launcher/Launcher2/Launcher2-IconOnly.ini",
+		"/C/Users/red_w/Projects/OpenGL/angle/scripts/bootstrap.py",
+		"/C/Users/red_w/Resources/depot_tools/metrics.py",
+		"/C/Users/red_w/Projects/OpenGL/angle/doc/DevSetup.md",
+		"/C/Users/red_w/OneDrive/Documents/Rainmeter/Skins/TECH-A/CFG/configure.ini",
+		"/C/Users/red_w/OneDrive/Documents/Rainmeter/Skins/TECH-A/SETTINGS/variables.inc",
+		"/H/backup/Users/100429591/Desktop/all things programming/CgTut_Seven/CgTut_Seven/fragment_shader.cg",
+		"/C/Users/red_w/OneDrive/Documents/Rainmeter/Skins/WP7/TextItems/Launcher/mujo=dont worry",
+		"/C/Users/red_w/Resources/AHK/FocusConsole.ahk",
+		"/C/Users/red_w/Resources/FocusConsole.ahk",
+		"/C/Users/red_w/OneDrive/Desktop/Console2/console.chw",
+		"/C/Users/red_w/OneDrive/Documents/Rainmeter/Skins/TECH-A/TECH-A/TECH-A 6 CPU.ini",
+		"/C/Users/red_w/OneDrive/Documents/Rainmeter/Skins/Enigma/Taskbar/Search/Run/Run-Icon.ini",
+		"/C/Users/red_w/OneDrive/Documents/Rainmeter/Skins/TinzSlideshow/Vertical/Slideshow.ini",
+		"/C/Users/red_w/OneDrive/Desktop/Portfolio files/DemoScene/Assets/WaterSurfaceShader.shader",
+		"/C/Users/red_w/Resources/Shaders/shader resource file",
+		"/C/Users/red_w/OneDrive/Documents/Rainmeter/Skins/WP7/Background/ResolutionBGs/1920.ini",
+		"/C/Users/red_w/OneDrive/Documents/Rainmeter/Skins/UNITY Slideshow & Feed Reader/UNITY Slideshow/UNITY Slideshow - Dark Alt.ini",
+		"/C/Users/red_w/OneDrive/Desktop/Portfolio files/DemoScene/Assets/Shaders/cerpuscularLighting.hlsl",
+		"/E/backup/Users/100429591/Desktop/CgTut_Three/fragment_texture.cg",
+		"/C/Users/red_w/OneDrive/Desktop/Portfolio files/DemoScene/Assets/Shaders/GetLight.hlsl",
+		"/C/Users/red_w/OneDrive/Documents/CityBomber/Assets/Scripts/Controller.cs",
+		"/C/Users/red_w/OneDrive/Desktop/Portfolio files/portfolioLinks.txt",
+		"/C/Users/red_w/OneDrive/Documents/GGJ_2020/GGJ_2020/Assets/Scripts/FPSCamera.cs",
+		"/C/Users/red_w/OneDrive/Documents/GGJ_2020/GGJ_2020/Assets/TestMesh.meta",
+		"/C/Users/red_w/OneDrive/Documents/GGJ_2020/GGJ_2020/Assets/Prefabs/Plants/HomeBaseTreePrefab.prefab.meta",
+		"/C/Users/red_w/OneDrive/Documents/GGJ_2020/GGJ_2020/Assets/Meshes/Materials/ground.mat",
+		"/C/Users/red_w/OneDrive/Documents/GGJ_2020/GGJ_2020/Assets/Scenes/FertillityTesting.unity",
+		"/C/Users/red_w/OneDrive/Documents/CityBomber/Assets/Scripts/Legacy/Planet.cs",
+		"/C/Users/red_w/OneDrive/Documents/CityBomber/Assets/Scripts/Planet/FakeGravityBody.cs",
+		"/E/backup/Users/100429591/Desktop/all things programming/scatterLighting/CgTut_Three/fragment_texture.cg",
+		"/E/backup/Users/100429591/Desktop/Unity/Shaders/Assets/Godrays/AltGodrays.shader",
+		"/E/backup/Users/100429591/Desktop/CgTut_Three/vertex_passthru.cg",
+		"/E/backup/Users/100429591/Desktop/all things programming/scatterLighting/CgTut_Three/vertex_passthru.cg",
+		"/E/backup/Users/100429591/Desktop/Unity/Shaders/Assets/Godrays/Godrays.shader",
+		"/C/Users/red_w/Downloads/wget2-1.99.2.tar.lz.sig",
+		"/C/Users/red_w/OneDrive/Desktop/Portfolio files/DemoScene/Assets/NewSurfaceShader.shader",
+		"/C/Users/red_w/OneDrive/Desktop/Portfolio files/DemoScene/Assets/Collisdions.cs",
+		"/C/Users/red_w/OneDrive/Desktop/Portfolio files/DemoScene/Assets/NewUnlitShader.shader",
+		"/C/Users/red_w/OneDrive/Documents/Rainmeter/Skins/Galaxy Suite/Weather/Settings.ini",
+		"/C/Users/red_w/Repository/ChikinBlitz/fingerBlitz/Assets/scripts/PhaserGuy.cs",
+		"/C/Users/red_w/OneDrive/Documents/Rainmeter/Skins/WP7/TextItems/Weather/weather.ini",
+		"/C/Users/red_w/OneDrive/Documents/Rainmeter/Skins/Shield Complete/TECH-A/SETTINGS/variables.inc",
+		"/C/Users/red_w/OneDrive/Documents/Rainmeter/Skins/TECH-A/TECH-A/TECH-A 2 CPU.ini",
+		"/C/Users/red_w/OneDrive/Documents/Rainmeter/Skins/Shield Complete/TECH-A/WEATHER/VClouds Weather - 3Days modified.ini",
+		"/C/Users/red_w/OneDrive/Documents/Rainmeter/Skins/SimpleMedia/@Resources/Players/WMP.inc",
+		"/C/Users/red_w/OneDrive/Documents/Rainmeter/Skins/SimpleMedia/@Resources/Variables.ini",
+		"/C/Users/red_w/AppData/Roaming/Sublime Text 3/Packages/User/UnityC#.sublime-settings",
+		"/C/Users/red_w/Repository/ChikinBlitz/fingerBlitz/Assets/scripts/Partitions.cs",
+		"/C/Users/red_w/Repository/ChikinBlitz/fingerBlitz/Assets/scripts/GameManager.cs",
+		"/C/Users/red_w/AppData/Roaming/Sublime Text 3/Installed Packages/SublimeLinter-contrib-csharplint.sublime-package",
+		"/C/Users/red_w/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/red_w/Downloads/Noise.cs",
+		"/C/Users/red_w/Downloads/SimplexNoiseCubes.cs",
+		"/C/Users/red_w/Downloads/SimplexNoiseExample.cs",
+		"/C/Users/red_w/OneDrive/Desktop/Console2/console.xml",
+		"/C/Users/red_w/OneDrive/Documents/Rainmeter/Skins/Shield Complete/Avengers - Tweaked/Config.inc",
+		"/C/Users/red_w/Repository/ChikinBlitz/fingerBlitz/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Info.plist",
+		"/C/Users/red_w/AppData/Local/Plex Media Server/Plug-ins/PhoenixAdult.bundle/README.md",
+		"/C/Users/red_w/AppData/Local/Plex Media Server/Plug-ins/AdultDVDEmpire.bundle/README.md"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 134.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"resha",
+			"resize",
+			"window",
+			"gent",
+			"bind",
+			"bing",
+			"solid",
+			"polyg",
+			"glut",
+			"resize",
+			"reshape",
+			"resize",
+			"headspin",
+			"idle",
+			"initgl",
+			"window",
+			"idle",
+			"Moti",
+			"moti",
+			"glut",
+			"idl",
+			"timer",
+			"idle",
+			"glutkey",
+			"idle",
+			"void timer",
+			"timer",
+			"resha",
+			"res",
+			"update",
+			"reshape",
+			"display",
+			"create",
+			"idle",
+			"rendertexture",
+			"matrix",
+			"pers",
+			"perspective",
+			"matrix",
+			"Matrix",
+			"matrix",
+			"proj",
+			"matrix",
+			"matric",
+			"render",
+			"text",
+			"v142",
+			"toolset",
+			"build",
+			"succ",
+			"reshape",
+			"amb",
+			"mode",
+			"timer",
+			"idle",
+			"headspin",
+			"idle",
+			"keybo",
+			"idle",
+			"timer",
+			"glut",
+			"idle",
+			"time",
+			"il",
+			"ilut",
+			"init",
+			"window_l",
+			"glut",
+			"Edit1",
+			"regex",
+			"rege",
+			"Search1",
+			"size",
+			"colo",
+			"mouse",
+			"mousedown",
+			"left",
+			"stringstyl",
+			"left",
+			"text",
+			"glsl",
+			"layout",
+			"glcreate",
+			"glsl",
+			"lighting",
+			"shader",
+			"render",
+			"update",
+			"render",
+			"timer",
+			"render",
+			"idle",
+			"glactive",
+			"glactivate",
+			"startupinfo",
+			"execute_child",
+			"}",
+			"speed",
+			"butt",
+			"weath",
+			"rootc",
+			"ignore",
+			"layerMas",
+			"lAyermas",
+			"layermask",
+			"switch",
+			"layermas",
+			"rand",
+			"toarra",
+			"gamelayo",
+			"loadleve",
+			"high",
+			"vertices[index].normalized",
+			"noise",
+			"         vertices[index] = vertices[index].normalized;\n",
+			"vertices[i"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main2.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12547,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								285,
+								285
+							]
+						],
+						"settings":
+						{
+							"SL.149.region_keys":
+							[
+								"SL.clang++.Highlights.|1d32d9a65995e21793e7834bb414edd33e0eff1a945ae1a5e790e6e5914697a1|region.redish markup.error.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.clang++.Gutter.|region.redish markup.error.sublime_linter|dot"
+							],
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"syntax": "Packages/C++11/C++11.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Include.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								176,
+								176
+							]
+						],
+						"settings":
+						{
+							"SL.318.region_keys":
+							[
+								"SL.clang++.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"sublime_linter.protected_regions",
+								"SL.clang++.Highlights.|dd60682c373b52a3c65b36811f4a52bc3eb7a8ebf71ff88a99318041068b5f9e|region.redish markup.error.sublime_linter|32",
+								"SL.clang++.Highlights.|e5be883edca7697d0ce1b1525650a00fa077977f65319cbb6b0ada48f1d98cd0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.clang++.Gutter.|region.redish markup.error.sublime_linter|dot"
+							],
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								50,
+								50
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 225,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								225,
+								167
+							]
+						],
+						"settings":
+						{
+							"SL.76.region_keys":
+							[
+							],
+							"auto_name": "MS BUILD CMD",
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 8,
+					"file": "/C/Users/red_w/Projects/Fathom/Fathom.sln",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1421,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								305,
+								305
+							]
+						],
+						"settings":
+						{
+							"SL.77.region_keys":
+							[
+							],
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1622,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1622,
+								1622
+							]
+						],
+						"settings":
+						{
+							"auto_name": "dump",
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/F/Users/100429591/desktop/buckstein2/TestProjectGLSL/TestProjectGLSL/main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6769,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4297,
+								4301
+							]
+						],
+						"settings":
+						{
+							"SL.24.region_keys":
+							[
+							],
+							"SL.77.region_keys":
+							[
+								"SL.clang++.Highlights.|0428d96dd743279c666195998454ad3c29fcaae350a49b62846e4398a206501e|region.redish markup.error.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.clang++.Gutter.|region.redish markup.error.sublime_linter|dot"
+							],
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"syntax": "Packages/C++11/C++11.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4283.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/Users/red_w/Projects/GLSLFathom/main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5894,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1072,
+								1047
+							]
+						],
+						"settings":
+						{
+							"SL.100.region_keys":
+							[
+							],
+							"SL.76.region_keys":
+							[
+								"sublime_linter.protected_regions",
+								"SL.clang++.Gutter.|region.redish markup.error.sublime_linter|dot",
+								"SL.clang++.Highlights.|e85f2cf03740adc33258482e3eecc00e3511b7a2da6fb5856de7511aa497f9da|region.redish markup.error.sublime_linter|32"
+							],
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"syntax": "Packages/C++11/C++11.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 882.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 53.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.SublimeLinter":
+	{
+		"height": 81.0
+	},
+	"output.exec":
+	{
+		"height": 156.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/MSBuild selector/MSBuildSelector.sublime-build",
+	"project": "Fathom.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 236.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+		"max_columns": 4
+	}
+}
