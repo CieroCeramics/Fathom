@@ -5,6 +5,7 @@
 
 using namespace std;
 
+
 //#include<GL/glu.h>
 #include"include.h"
 #include "Matrix.h"
@@ -50,7 +51,9 @@ unsigned int sceneDepth;
 // int lp_colourTex;
  int amb, diff,spec,shin;
 
-// unsigned int edgeProgram;
+// unsigned int edge
+
+ //Program;
 // int edge_inputColour;
 // int edge_inputNormal;
 // int edge_inputDepth;
@@ -124,14 +127,16 @@ unsigned int aTexture;
 int mode = 0;
 
 
+
+
 void Init();
 void Update(double dt);
 void Render();
 //void InitGL(int argc, char** argv);
-
-int main(int argc, char **argv)
+void InitGL(int argc, char **argv)
 {
-		//GLUT Initialization
+	//glutInit();
+			//GLUT Initialization
 	glutInit(&argc, argv);
 	
 
@@ -144,7 +149,6 @@ int main(int argc, char **argv)
 	WINDOW_LOCATION_X= glutGet(GLUT_SCREEN_WIDTH) * 0.1; //Sets window location x to middle of screen based off of the above 80%
 
 	WINDOW_LOCATION_Y = glutGet(GLUT_SCREEN_HEIGHT) * 0.1; //Sets window location y to middle of screen based off of the above 80%
-
 	
 	glutDisplayFunc(Display);
 	glutReshapeFunc(reshape);
@@ -178,6 +182,12 @@ glClearColor(0.1, 0.1, 0.1, 0);  /* Gray background. */
     exit(1);
   }
 	  const unsigned char *version = glGetString(GL_VERSION);
+
+}
+int main(int argc, char **argv)
+{
+
+	InitGL(argc, argv);
 
 	Init();
 

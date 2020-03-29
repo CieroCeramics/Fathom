@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"int",
+				"init\tfunc"
+			],
+			[
 				"Main",
 				"MAIN_WINDOW_WIDTH\tfloat MAIN_WINDOW_WIDTH"
 			],
@@ -23,8 +27,64 @@
 			"file": "main2.cpp",
 			"settings":
 			{
-				"buffer_size": 12547,
+				"buffer_size": 12562,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/red_w/Rainmeter/Skins/Enigma/Taskbar/_Extras/_Template/Template-Mini.ini",
+			"settings":
+			{
+				"buffer_size": 698,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Model.cpp",
+			"settings":
+			{
+				"buffer_size": 60706,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Model.h",
+			"settings":
+			{
+				"buffer_size": 8720,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "FBO.cpp",
+			"settings":
+			{
+				"buffer_size": 3038,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "include/GL/glew.h",
+			"settings":
+			{
+				"buffer_size": 1307079,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Texture.cpp",
+			"settings":
+			{
+				"buffer_size": 1062,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Texture.h",
+			"settings":
+			{
+				"buffer_size": 468,
 				"line_ending": "Windows"
 			}
 		},
@@ -32,20 +92,63 @@
 			"file": "Include.h",
 			"settings":
 			{
-				"buffer_size": 176,
+				"buffer_size": 175,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "Package Control Messages\n========================\n\nSublimeLinter-clang\n-------------------\n\n  SublimeLinter-clang\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to clang.\n  \n  Please read the installation instructions at:\n  \n  https://github.com/SublimeLinter/SublimeLinter-clang\n",
+			"file": "Matrix.cpp",
 			"settings":
 			{
-				"buffer_size": 328,
-				"line_ending": "Windows",
-				"name": "Package Control Messages",
-				"read_only": true,
-				"scratch": true
+				"buffer_size": 21815,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/red_w/Projects/Fathom/Fathom.sln",
+			"settings":
+			{
+				"buffer_size": 1421,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/red_w/AppData/Roaming/Sublime Text 3/Packages/EasyClangComplete/EasyClangComplete.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 10266,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "FBO.h",
+			"settings":
+			{
+				"buffer_size": 705,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Fathom.vcxproj",
+			"settings":
+			{
+				"buffer_size": 8861,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "{\n\n \"folders\":\n    [\n        {\n            \"path\": \"include\",\n            //\"folder_include_patterns\": [\".h\"],\n           // \"follow_symlinks\": true\n        },\n        {\n            // \"path\": \"docs\",\n            // \"name\": \"Documentation\",\n            // \"file_exclude_patterns\": [\"*.css\"]\n        }\n    ],\n\t//C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\Common7\\IDE\\VC\\VCTargets\\Microsoft.Cpp.Default.props\n\"msbuild_selector\":\n{\n//\t# Path to MSBUILD\n\t//\"command\": \"path/to/msbuild.exe\",\n\n\t//# An optional list of \"root projects\" a.k.a solutions in the VS world that\n\t//# will be added to the panel to build\n\t\"projects\": [\n\t\t{\n\t\t\t// \"name\": \"Fathom\",\n\t\t\t// \"file_name\": \"Fathom.build.proj\"\n\t\t\t\n\t\t}\n\t],\n\n//\t# List of platforms you want to be able to build on.\n//\t# Default is Win32/x64\n\t\"platforms\":\n\t[\n\t\t\"x64\",\n\t\t\"Win32\"\n\t],\n\n//\t# List of configuration you want to be able to build on.\n\t//# Default is Release/Debug\n\t\"configurations\":\n\t[\n\t\t\"Debug\",\n\t\t\"Release\"\n\t],\n\n\t//# A mandatory list of glob patterns to find the sub-projects\n\t//# (named simply projects in VS)\n\t\"patterns\":\t[\n\t\t\"Fathom.vcxproj\"\n\t\t\n\t],\n\n//\t# Optional environment variables that will be passed to MSBuild process\n\t\"environment\": {\n\t\"$(VCTargetsPath)\": \"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Microsoft/VC/v160\",\n\t\"CPLUS_INCLUDE_PATH\" :\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\"\n\t},\n\n//\t# Regexp to match error (see build system documentation)\n\t//# Default is \"^\\\\s*(.+)\\\\(([0-9]+)\\\\)\\\\s*:\\\\s*(.*)\"\n\t\"file_regex\": \"^\\\\s*(.+)\\\\(([0-9]+)\\\\)\\\\s*:\\\\s*(.*)\"\n}\n}",
+			"file": "/C/Users/red_w/Projects/Fathom/Fathom.sublime-project",
+			"file_size": 1660,
+			"file_write_time": 132296060823101611,
+			"settings":
+			{
+				"buffer_size": 1596,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -58,55 +161,10 @@
 			}
 		},
 		{
-			"contents": "",
+			"contents": "#pragma once\n#include \"FBXLoader.h\"\n\n\nFBXLoader::FBXLoader(const char * pFileName, int pWindowWidth, int pWindowHeight)\n\t: mFileName(pFileName),SdkManager(NULL), Scene(NULL),Importer(NULL), CurrentAnimLayer(NULL),SelectedNode(NULL),\n\t  mPoseIndex(-1),SupportVBO(true)\n\n{\n\tif (mFileName == NULL)\n\t\tmFileName = NULL;\n\n\t// initialize cache start and stop time\n\tmCache_Start = FBXSDK_TIME_INFINITE;\n\tmCache_Stop  = FBXSDK_TIME_MINUS_INFINITE;\n\n\t// Create the FBX SDK manager which is the object allocator for almost \n\t// all the classes in the SDK and create the scene.\n\tInitializeSdkObjects(SdkManager, Scene);\n\n\tif (SdkManager)\n\t{\n\t\t// Create the importer.\n\t\tint lFileFormat = -1;\n\t\tImporter = FbxImporter::Create(SdkManager,\"\");\n\t\tif (!SdkManager->GetIOPluginRegistry()->DetectReaderFileFormat(mFileName, lFileFormat) )\n\t\t{\n\t\t\t// Unrecognizable file format. Try to fall back to FbxImporter::eFBX_BINARY\n\t\t\tlFileFormat = SdkManager->GetIOPluginRegistry()->FindReaderIDByDescription( \"FBX binary (*.fbx)\" );;\n\t\t}\n\n\t\t// Initialize the importer by providing a filename.\n\t\tif(Importer->Initialize(mFileName, lFileFormat) == true)\n\t\t{\n\t\t\t// The file is going to be imported at \n\t\t\t// the end of the first display callback.\n\t\t\tWindowMessage = \"Importing file \";\n\t\t\tWindowMessage += mFileName;\n\t\t\tWindowMessage += \"\\nPlease wait!\";\n\n\t\t}\n\t\telse\n\t\t{\n\t\t\tWindowMessage = \"Unable to open file \";\n\t\t\tWindowMessage += mFileName;\n\t\t\tWindowMessage += \"\\nError reported: \";\n\t\t\tWindowMessage += Importer->GetStatus().GetErrorString();\n\t\t\tWindowMessage += \"\\nEsc to exit\";\n\t\t}\n\t}\n\telse\n\t{\n\t\tWindowMessage = \"Unable to create the FBX SDK manager\";\n\t\tWindowMessage += \"\\nEsc to exit\";\n\t}\n\n}\n\n\nFBXLoader::~FBXLoader(void)\n{\n\n\tFbxArrayDelete(mAnimStackNameArray);\n\n\t// Unload the cache and free the memory\n\tif (Scene)\n\t{\n\t\tUnloadCacheRecursive(Scene);\n\t}\n\n\t// Delete the FBX SDK manager. All the objects that have been allocated \n\t// using the FBX SDK manager and that haven't been explicitly destroyed \n\t// are automatically destroyed at the same time.\n\tDestroySdkObjects(SdkManager, true);\n}\n\nvoid  FBXLoader::FillPoseArray(FbxScene* pScene, FbxArray<FbxPose*>& pPoseArray)\n{\n\tconst int lPoseCount = pScene->GetPoseCount();\n\n\tfor (int i=0; i < lPoseCount; ++i)\n\t{\n\t\tpPoseArray.Add(pScene->GetPose(i));\n\t}\n}\n\n\nvoid FBXLoader::PreparePointCacheData(FbxScene* pScene, FbxTime &pCache_Start, FbxTime &pCache_Stop)\n{\n\n\t// This function show how to cycle through scene elements in a linear way.\n\tconst int lNodeCount = pScene->GetSrcObjectCount<FbxNode>();\n\tFbxStatus lStatus;\n\n\tfor (int lIndex=0; lIndex<lNodeCount; lIndex++)\n\t{\n\t\tFbxNode* lNode = pScene->GetSrcObject<FbxNode>(lIndex);\n\n\t\tif (lNode->GetGeometry()) \n\t\t{\n\t\t\tint i, lVertexCacheDeformerCount = lNode->GetGeometry()->GetDeformerCount(FbxDeformer::eVertexCache);\n\n\t\t\t// There should be a maximum of 1 Vertex Cache Deformer for the moment\n\t\t\tlVertexCacheDeformerCount = lVertexCacheDeformerCount > 0 ? 1 : 0;\n\n\t\t\tfor (i=0; i<lVertexCacheDeformerCount; ++i )\n\t\t\t{\n\t\t\t\t// Get the Point Cache object\n\t\t\t\tFbxVertexCacheDeformer* lDeformer = static_cast<FbxVertexCacheDeformer*>(lNode->GetGeometry()->GetDeformer(i, FbxDeformer::eVertexCache));\n\t\t\t\tif( !lDeformer ) continue;\n\t\t\t\tFbxCache* lCache = lDeformer->GetCache();\n\t\t\t\tif( !lCache ) continue;\n\n\t\t\t\t// Process the point cache data only if the constraint is active\n\t\t\t\tif (lDeformer->IsActive())\n\t\t\t\t{\n\t\t\t\t\tif (lCache->GetCacheFileFormat() == FbxCache::eMaxPointCacheV2)\n\t\t\t\t\t{\n\t\t\t\t\t\t// This code show how to convert from PC2 to MC point cache format\n\t\t\t\t\t\t// turn it on if you need it.\n#if 0 \n\t\t\t\t\t\tif (!lCache->ConvertFromPC2ToMC(FbxCache::eMCOneFile, \n\t\t\t\t\t\t\tFbxTime::GetFrameRate(pScene->GetGlobalTimeSettings().GetTimeMode())))\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\t// Conversion failed, retrieve the error here\n\t\t\t\t\t\t\tFbxString lTheErrorIs = lCache->GetStaus().GetErrorString();\n\t\t\t\t\t\t}\n#endif\n\t\t\t\t\t}\n\t\t\t\t\telse if (lCache->GetCacheFileFormat() == FbxCache::eMayaCache)\n\t\t\t\t\t{\n\t\t\t\t\t\t// This code show how to convert from MC to PC2 point cache format\n\t\t\t\t\t\t// turn it on if you need it.\n\t\t\t\t\t\t//#if 0 \n\t\t\t\t\t\tif (!lCache->ConvertFromMCToPC2(FbxTime::GetFrameRate(pScene->GetGlobalSettings().GetTimeMode()), 0, &lStatus))\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\t// Conversion failed, retrieve the error here\n\t\t\t\t\t\t\tFbxString lTheErrorIs = lStatus.GetErrorString();\n\t\t\t\t\t\t}\n\t\t\t\t\t\t//#endif\n\t\t\t\t\t}\n\n\n\t\t\t\t\t// Now open the cache file to read from it\n\t\t\t\t\tif (!lCache->OpenFileForRead(&lStatus))\n\t\t\t\t\t{\n\t\t\t\t\t\t// Cannot open file \n\t\t\t\t\t\tFbxString lTheErrorIs = lStatus.GetErrorString();\n\n\t\t\t\t\t\t// Set the deformer inactive so we don't play it back\n\t\t\t\t\t\tlDeformer->SetActive(false);\n\t\t\t\t\t}\n\t\t\t\t\telse\n\t\t\t\t\t{\n\t\t\t\t\t\t// get the start and stop time of the cache\n\t\t\t\t\t\tint lChannelCount = lCache->GetChannelCount();\n\n\t\t\t\t\t\tfor (int iChannelNo=0; iChannelNo < lChannelCount; iChannelNo++)\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\tFbxTime lChannel_Start;\n\t\t\t\t\t\t\tFbxTime lChannel_Stop;\n\n\t\t\t\t\t\t\tif(lCache->GetAnimationRange(iChannelNo, lChannel_Start, lChannel_Stop))\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t// get the smallest start time\n\t\t\t\t\t\t\t\tif(lChannel_Start < pCache_Start) pCache_Start = lChannel_Start;\n\n\t\t\t\t\t\t\t\t// get the biggest stop time\n\t\t\t\t\t\t\t\tif(lChannel_Stop  > pCache_Stop)  pCache_Stop  = lChannel_Stop;\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n\n}\n\nbool FBXLoader::LoadTextureFromFile(const FbxString & pFilePath, unsigned int & pTextureObject)\n{\n\tif (pFilePath.Right(3).Upper() == \"TGA\")\n\t{\n\t\ttga_image lTGAImage;\n\n\t\tif (tga_read(&lTGAImage, pFilePath.Buffer()) == TGA_NOERR)\n\t\t{\n\t\t\t// Make sure the image is left to right\n\t\t\tif (tga_is_right_to_left(&lTGAImage))\n\t\t\t\ttga_flip_horiz(&lTGAImage);\n\n\t\t\t// Make sure the image is bottom to top\n\t\t\tif (tga_is_top_to_bottom(&lTGAImage))\n\t\t\t\ttga_flip_vert(&lTGAImage);\n\n\t\t\t// Make the image BGR 24\n\t\t\ttga_convert_depth(&lTGAImage, 24);\n\n\t\t\t// Transfer the texture date into GPU\n\t\t\tglGenTextures(1, &pTextureObject);\n\t\t\tglBindTexture(GL_TEXTURE_2D, pTextureObject);\n\t\t\tglTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);\n\t\t\tglTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);\n\t\t\tglTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP);\n\t\t\tglTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP);\n\t\t\tglTexEnvi(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_REPLACE);\n\t\t\tglTexImage2D(GL_TEXTURE_2D, 0, 3, lTGAImage.width, lTGAImage.height, 0, GL_BGR,\n\t\t\t\tGL_UNSIGNED_BYTE, lTGAImage.image_data);\n\t\t\tglBindTexture(GL_TEXTURE_2D, 0);\n\n\t\t\ttga_free_buffers(&lTGAImage);\n\n\t\t\treturn true;\n\t\t}\n\t}\n\n\treturn false;\n}\n\nvoid FBXLoader::LoadCacheRecursive(FbxNode * pNode, FbxAnimLayer * pAnimLayer, bool pSupportVBO)\n{\n\n\t// Bake material and hook as user data.\n\tconst int lMaterialCount = pNode->GetMaterialCount();\n\tfor (int lMaterialIndex = 0; lMaterialIndex < lMaterialCount; ++lMaterialIndex)\n\t{\n\t\tFbxSurfaceMaterial * lMaterial = pNode->GetMaterial(lMaterialIndex);\n\t\tif (lMaterial && !lMaterial->GetUserDataPtr())\n\t\t{\n\t\t\tFbxAutoPtr<MaterialCache> lMaterialCache(new MaterialCache);\n\t\t\tif (lMaterialCache->Initialize(lMaterial))\n\t\t\t{\n\t\t\t\tlMaterial->SetUserDataPtr(lMaterialCache.Release());\n\t\t\t}\n\t\t}\n\t}\n\n\tFbxNodeAttribute* lNodeAttribute = pNode->GetNodeAttribute();\n\tif (lNodeAttribute)\n\t{\n\t\t// Bake mesh as VBO(vertex buffer object) into GPU.\n\t\tif (lNodeAttribute->GetAttributeType() == FbxNodeAttribute::eMesh)\n\t\t{\n\t\t\tFbxMesh * lMesh = pNode->GetMesh();\n\t\t\tif (pSupportVBO && lMesh && !lMesh->GetUserDataPtr())\n\t\t\t{\n\t\t\t\tFbxAutoPtr<VBOMesh> lMeshCache(new VBOMesh);\n\t\t\t\tif (lMeshCache->Initialize(lMesh))\n\t\t\t\t{\n\t\t\t\t\tlMesh->SetUserDataPtr(lMeshCache.Release());\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n\n\tconst int lChildCount = pNode->GetChildCount();\n\tfor (int lChildIndex = 0; lChildIndex < lChildCount; ++lChildIndex)\n\t{\n\t\tLoadCacheRecursive(pNode->GetChild(lChildIndex), pAnimLayer, pSupportVBO);\n\t}\n\n}\n\n\nvoid FBXLoader::UnloadCacheRecursive(FbxNode * pNode)\n{\n\t// Unload the material cache\n\tconst int lMaterialCount = pNode->GetMaterialCount();\n\tfor (int lMaterialIndex = 0; lMaterialIndex < lMaterialCount; ++lMaterialIndex)\n\t{\n\t\tFbxSurfaceMaterial * lMaterial = pNode->GetMaterial(lMaterialIndex);\n\t\tif (lMaterial && lMaterial->GetUserDataPtr())\n\t\t{\n\t\t\tMaterialCache * lMaterialCache = static_cast<MaterialCache *>(lMaterial->GetUserDataPtr());\n\t\t\tlMaterial->SetUserDataPtr(NULL);\n\t\t\tdelete lMaterialCache;\n\t\t}\n\t}\n\n\tFbxNodeAttribute* lNodeAttribute = pNode->GetNodeAttribute();\n\tif (lNodeAttribute)\n\t{\n\t\t// Unload the mesh cache\n\t\tif (lNodeAttribute->GetAttributeType() == FbxNodeAttribute::eMesh)\n\t\t{\n\t\t\tFbxMesh * lMesh = pNode->GetMesh();\n\t\t\tif (lMesh && lMesh->GetUserDataPtr())\n\t\t\t{\n\t\t\t\tVBOMesh * lMeshCache = static_cast<VBOMesh *>(lMesh->GetUserDataPtr());\n\t\t\t\tlMesh->SetUserDataPtr(NULL);\n\t\t\t\tdelete lMeshCache;\n\t\t\t}\n\t\t}\n\t}\n\n\tconst int lChildCount = pNode->GetChildCount();\n\tfor (int lChildIndex = 0; lChildIndex < lChildCount; ++lChildIndex)\n\t{\n\t\tUnloadCacheRecursive(pNode->GetChild(lChildIndex));\n\t}\n}\n\nvoid FBXLoader::LoadCacheRecursive(FbxScene * pScene, FbxAnimLayer * pAnimLayer, const char * pFbxFileName, bool pSupportVBO)\n{\n\t// Load the textures into GPU, only for file texture now\n\tconst int lTextureCount = pScene->GetTextureCount();\n\tfor (int lTextureIndex = 0; lTextureIndex < lTextureCount; ++lTextureIndex)\n\t{\n\t\tFbxTexture * lTexture = pScene->GetTexture(lTextureIndex);\n\t\tFbxFileTexture * lFileTexture = FbxCast<FbxFileTexture>(lTexture);\n\t\tif (lFileTexture && !lFileTexture->GetUserDataPtr())\n\t\t{\n\t\t\t// Try to load the texture from absolute path\n\t\t\tconst FbxString lFileName = lFileTexture->GetFileName();\n\n\t\t\t// Only TGA textures are supported now.\n\t\t\tif (lFileName.Right(3).Upper() != \"TGA\")\n\t\t\t{\n\t\t\t\tFBXSDK_printf(\"Only TGA textures are supported now: %s\\n\", lFileName.Buffer());\n\t\t\t\tcontinue;\n\t\t\t}\n\n\t\t\tGLuint lTextureObject = 0;\n\t\t\tbool lStatus =  LoadTextureFromFile(lFileName, lTextureObject); //<<---texture\n\n\t\t\tconst FbxString lAbsFbxFileName = FbxPathUtils::Resolve(pFbxFileName);\n\t\t\tconst FbxString lAbsFolderName = FbxPathUtils::GetFolderName(lAbsFbxFileName);\n\t\t\tif (!lStatus)\n\t\t\t{\n\t\t\t\t// Load texture from relative file name (relative to FBX file)\n\t\t\t\tconst FbxString lResolvedFileName = FbxPathUtils::Bind(lAbsFolderName, lFileTexture->GetRelativeFileName());\n\t\t\t\tlStatus = LoadTextureFromFile(lResolvedFileName, lTextureObject);// <<---texture\n\t\t\t}\n\n\t\t\tif (!lStatus)\n\t\t\t{\n\t\t\t\t// Load texture from file name only (relative to FBX file)\n\t\t\t\tconst FbxString lTextureFileName = FbxPathUtils::GetFileName(lFileName);\n\t\t\t\tconst FbxString lResolvedFileName = FbxPathUtils::Bind(lAbsFolderName, lTextureFileName);\n\t\t\t\tlStatus = LoadTextureFromFile(lResolvedFileName, lTextureObject); //<<------texture\n\t\t\t}\n\n\t\t\tif (!lStatus)\n\t\t\t{\n\t\t\t\tFBXSDK_printf(\"Failed to load texture file: %s\\n\", lFileName.Buffer());\n\t\t\t\tcontinue;\n\t\t\t}\n\n\t\t\tif (lStatus)\n\t\t\t{\n\t\t\t\tGLuint * lTextureName = new GLuint(lTextureObject);\n\t\t\t\tlFileTexture->SetUserDataPtr(lTextureName);\n\t\t\t}\n\t\t}\n\t}\n\n\tLoadCacheRecursive(pScene->GetRootNode(), pAnimLayer, pSupportVBO);\n}\n\nvoid FBXLoader::UnloadCacheRecursive(FbxScene * pScene)\n{\n\tconst int lTextureCount = pScene->GetTextureCount();\n\tfor (int lTextureIndex = 0; lTextureIndex < lTextureCount; ++lTextureIndex)\n\t{\n\t\tFbxTexture * lTexture = pScene->GetTexture(lTextureIndex);\n\t\tFbxFileTexture * lFileTexture = FbxCast<FbxFileTexture>(lTexture);\n\t\tif (lFileTexture && lFileTexture->GetUserDataPtr())\n\t\t{\n\t\t\tGLuint * lTextureName = static_cast<GLuint *>(lFileTexture->GetUserDataPtr());\n\t\t\tlFileTexture->SetUserDataPtr(NULL);\n\t\t\tglDeleteTextures(1, lTextureName);\n\t\t\tdelete lTextureName;\n\t\t}\n\t}\n\n\tUnloadCacheRecursive(pScene->GetRootNode());\n}\n\nbool FBXLoader::LoadFile()\n{\n\tbool lResult = false;\n\t// Make sure that the scene is ready to load.\n\n\tif (Importer->Import(Scene) == true)\n\t{\n\t\t// Set the scene status flag to refresh \n\t\t// the scene in the first timer callback.\n\n\t\t// Convert Axis System to what is used in this example, if needed\n\t\tFbxAxisSystem SceneAxisSystem = Scene->GetGlobalSettings().GetAxisSystem();\n\t\tFbxAxisSystem OurAxisSystem(FbxAxisSystem::eYAxis, FbxAxisSystem::eParityOdd, FbxAxisSystem::eRightHanded);\n\t\tif( SceneAxisSystem != OurAxisSystem )\n\t\t{\n\t\t\tOurAxisSystem.ConvertScene(Scene);\n\t\t}\n\n\t\t// Convert Unit System to what is used in this example, if needed\n\t\tFbxSystemUnit SceneSystemUnit = Scene->GetGlobalSettings().GetSystemUnit();\n\t\tif( SceneSystemUnit.GetScaleFactor() != 1.0 )\n\t\t{\n\t\t\t//The unit in this example is centimeter.\n\t\t\tFbxSystemUnit::cm.ConvertScene( Scene);\n\t\t}\n\n\n\t\t// Get the list of all the animation stack.\n\t\tScene->FillAnimStackNameArray(mAnimStackNameArray);\n\n\t\t// Get the list of all the cameras in the scene.\n\t\t// FillCameraArray(mScene, mCameraArray);\n\n\t\t// Convert mesh, NURBS and patch into triangle mesh\n\t\tFbxGeometryConverter lGeomConverter(SdkManager);\n\n\n\n\t\tlGeomConverter.Triangulate(Scene,true,true);//node //<<------------------------------------------timing more..\n\n\t\t// Split meshes per material, so that we only have one material per mesh (for VBO support)\n\t\tlGeomConverter.SplitMeshesPerMaterial(Scene, /*replace*/true);\n\n\t\t// Bake the scene for one frame\n\t\tLoadCacheRecursive(Scene, CurrentAnimLayer, mFileName, SupportVBO);\n\n\n\t\t// Initialize the frame period.\n\t\tmFrameTime.SetTime(0, 0, 0, 1, 0, Scene->GetGlobalSettings().GetTimeMode());\n\n\t\tlResult = true;\n\t}\n\telse\n\t{\n\t\t// Import failed, set the scene status flag accordingly.\n\n\t\tWindowMessage = \"Unable to import file \";\n\t\tWindowMessage += mFileName;\n\t\tWindowMessage += \"\\nError reported: \";\n\t\tWindowMessage += Importer->GetStatus().GetErrorString();\n\t}\n\n\t// Destroy the importer to release the file.\n\tImporter->Destroy();\n\tImporter = NULL;\n\n\treturn lResult;\n}\n\nbool FBXLoader::SetCurrentAnimStack(int pIndex)\n{\n\tconst int lAnimStackCount = mAnimStackNameArray.GetCount();\n\tif (!lAnimStackCount || pIndex >= lAnimStackCount)\n\t{\n\t\treturn false;\n\t}\n\n\t// select the base layer from the animation stack\n\tFbxAnimStack * lCurrentAnimationStack = Scene->FindMember<FbxAnimStack>(mAnimStackNameArray[pIndex]->Buffer());\n\tif (lCurrentAnimationStack == NULL)\n\t{\n\t\t// this is a problem. The anim stack should be found in the scene!\n\t\treturn false;\n\t}\n\n\t// we assume that the first animation layer connected to the animation stack is the base layer\n\t// (this is the assumption made in the FBXSDK)\n\tCurrentAnimLayer = lCurrentAnimationStack->GetMember<FbxAnimLayer>();\n\tScene->SetCurrentAnimationStack(lCurrentAnimationStack);\n\n\tFbxTakeInfo* lCurrentTakeInfo = Scene->GetTakeInfo(*(mAnimStackNameArray[pIndex]));\n\tif (lCurrentTakeInfo)\n\t{\n\t\tmStart = lCurrentTakeInfo->mLocalTimeSpan.GetStart();\n\t\tmStop = lCurrentTakeInfo->mLocalTimeSpan.GetStop();\n\t}\n\telse\n\t{\n\t\t// Take the time line value\n\t\tFbxTimeSpan lTimeLineTimeSpan;\n\t\tScene->GetGlobalSettings().GetTimelineDefaultTimeSpan(lTimeLineTimeSpan);\n\n\t\tmStart = lTimeLineTimeSpan.GetStart();\n\t\tmStop  = lTimeLineTimeSpan.GetStop();\n\t}\n\n\t// check for smallest start with cache start\n\tif(mCache_Start < mStart)\n\t\tmStart = mCache_Start;\n\n\t// check for biggest stop with cache stop\n\tif(mCache_Stop  > mStop)  \n\t\tmStop  = mCache_Stop;\n\n\t// move to beginning\n\tmCurrentTime = mStart;\n\n\treturn true;\n}\n\nvoid FBXLoader::OnTimerClick() const\n{\n\t// Loop in the animation stack if not paused.\n\tif (mStop > mStart)\n\t{\n\n\t\tmCurrentTime += mFrameTime;\n\n\t\tif (mCurrentTime > mStop)\n\t\t{\n\t\t\tmCurrentTime = mStart;\n\t\t}\n\t}\n}\n\n//change by gl version..\nbool FBXLoader::Draw()\n{\n\tglClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);\n\tglClearColor(0.0,0.0,0.0,0);\n\n\n\tglPushAttrib(GL_ENABLE_BIT);\n\tglPushAttrib(GL_LIGHTING_BIT);\n\tglEnable(GL_DEPTH_TEST);\n\t// Draw the front face only, except for the texts and lights.\n\tglEnable(GL_CULL_FACE);\n\n\n\tFbxPose * lPose = NULL;\n\tif (mPoseIndex != -1)\n\t{\n\t\tlPose = Scene->GetPose(mPoseIndex);\n\t}\n\n\t// If one node is selected, draw it and its children.\n\tFbxAMatrix lDummyGlobalPosition;\n\n\tif (SelectedNode)\n\t{\n\t\tglScalef(5,5,5);\n\t\tDrawNodeRecursive(SelectedNode, mCurrentTime, CurrentAnimLayer, lDummyGlobalPosition, lPose);\n\t\tDisplayGrid(lDummyGlobalPosition);\n\t}\n\t// Otherwise, draw the whole scene.\n\telse\n\t{\n\t\tglScalef(15,15,15);\n\t\tDrawNodeRecursive(Scene->GetRootNode(), mCurrentTime, CurrentAnimLayer, lDummyGlobalPosition, lPose);\n\t\tDisplayGrid(lDummyGlobalPosition);\n\t}\n\n\tglPopAttrib();\n\tglPopAttrib();\n\n\treturn true;\n}\n\nvoid FBXLoader::DrawNodeRecursive(FbxNode* pNode, FbxTime& pTime, FbxAnimLayer* pAnimLayer,\n\t\t\t\t\t\t\t\t  FbxAMatrix& pParentGlobalPosition, FbxPose* pPose)\n{\n\n\tFbxAMatrix lGlobalPosition = GetGlobalPosition(pNode, pTime, pPose, &pParentGlobalPosition);\n\n\tif (pNode->GetNodeAttribute())\n\t{\n\t\t// Geometry offset.\n\t\t// it is not inherited by the children.\n\t\tFbxAMatrix lGeometryOffset = GetGeometry(pNode);\n\t\tFbxAMatrix lGlobalOffPosition = lGlobalPosition * lGeometryOffset;\n\n\t\tDrawNode(pNode, pTime, pAnimLayer, pParentGlobalPosition, lGlobalOffPosition, pPose);\n\t}\n\n\tconst int lChildCount = pNode->GetChildCount();\n\tfor (int lChildIndex = 0; lChildIndex < lChildCount; ++lChildIndex)\n\t{\n\t\tDrawNodeRecursive(pNode->GetChild(lChildIndex), pTime, pAnimLayer, lGlobalPosition, pPose);\n\t}\n\n}\n\n\nFbxAMatrix  FBXLoader::GetGlobalPosition(FbxNode* pNode, const FbxTime& pTime, FbxPose* pPose, FbxAMatrix* pParentGlobalPosition)\n{\n\n\tFbxAMatrix lGlobalPosition;\n\tbool        lPositionFound = false;\n\n\tif (pPose)\n\t{\n\t\tint lNodeIndex = pPose->Find(pNode);\n\n\t\tif (lNodeIndex > -1)\n\t\t{\n\t\t\t// The bind pose is always a global matrix.\n\t\t\t// If we have a rest pose, we need to check if it is\n\t\t\t// stored in global or local space.\n\t\t\tif (pPose->IsBindPose() || !pPose->IsLocalMatrix(lNodeIndex))\n\t\t\t{\n\t\t\t\tlGlobalPosition = GetPoseMatrix(pPose, lNodeIndex);\n\t\t\t}\n\t\t\telse\n\t\t\t{\n\t\t\t\t// We have a local matrix, we need to convert it to\n\t\t\t\t// a global space matrix.\n\t\t\t\tFbxAMatrix lParentGlobalPosition;\n\n\t\t\t\tif (pParentGlobalPosition)\n\t\t\t\t{\n\t\t\t\t\tlParentGlobalPosition = *pParentGlobalPosition;\n\t\t\t\t}\n\t\t\t\telse\n\t\t\t\t{\n\t\t\t\t\tif (pNode->GetParent())\n\t\t\t\t\t{\n\t\t\t\t\t\tlParentGlobalPosition = GetGlobalPosition(pNode->GetParent(), pTime, pPose);\n\t\t\t\t\t}\n\t\t\t\t}\n\n\t\t\t\tFbxAMatrix lLocalPosition = GetPoseMatrix(pPose, lNodeIndex);\n\t\t\t\tlGlobalPosition = lParentGlobalPosition * lLocalPosition;\n\t\t\t}\n\n\t\t\tlPositionFound = true;\n\t\t}\n\t}\n\n\tif (!lPositionFound)\n\t{\n\t\t// There is no pose entry for that node, get the current global position instead.\n\n\t\t// Ideally this would use parent global position and local position to compute the global position.\n\t\t// Unfortunately the equation \n\t\t//    lGlobalPosition = pParentGlobalPosition * lLocalPosition\n\t\t// does not hold when inheritance type is other than \"Parent\" (RSrs).\n\t\t// To compute the parent rotation and scaling is tricky in the RrSs and Rrs cases.\n\t\tlGlobalPosition = pNode->EvaluateGlobalTransform(pTime);\n\t}\n\n\treturn lGlobalPosition;\n}\n\nFbxAMatrix FBXLoader::GetPoseMatrix(FbxPose* pPose, int pNodeIndex)\n{\n\tFbxAMatrix lPoseMatrix;\n\tFbxMatrix lMatrix = pPose->GetMatrix(pNodeIndex);\n\n\tmemcpy((double*)lPoseMatrix, (double*)lMatrix, sizeof(lMatrix.mData));\n\n\treturn lPoseMatrix;\n}\n\nFbxAMatrix FBXLoader::GetGeometry(FbxNode* pNode)\n{\n\tconst FbxVector4 lT = pNode->GetGeometricTranslation(FbxNode::eSourcePivot);\n\tconst FbxVector4 lR = pNode->GetGeometricRotation(FbxNode::eSourcePivot);\n\tconst FbxVector4 lS = pNode->GetGeometricScaling(FbxNode::eSourcePivot);\n\n\treturn FbxAMatrix(lT, lR, lS);\n}\n\nvoid FBXLoader::DrawNode(FbxNode* pNode, FbxTime& pTime,FbxAnimLayer* pAnimLayer,FbxAMatrix& pParentGlobalPosition,\n\t\t\t\t\t\t FbxAMatrix& pGlobalPosition,FbxPose* pPose)\n{\n\tFbxNodeAttribute* lNodeAttribute = pNode->GetNodeAttribute();\n\tif (lNodeAttribute)\n\t{\n\t\tif (lNodeAttribute->GetAttributeType() == FbxNodeAttribute::eSkeleton)\n\t\t{\n\t\t\tDrawSkeleton(pNode, pParentGlobalPosition, pGlobalPosition);\n\t\t}\n\t\t// NURBS and patch have been converted into triangluation meshes.\n\t\telse if (lNodeAttribute->GetAttributeType() == FbxNodeAttribute::eMesh)\n\t\t{\n\t\t\tDrawMesh(pNode, pTime, pAnimLayer, pGlobalPosition, pPose);\n\t\t}\n\t\telse if (lNodeAttribute->GetAttributeType() == FbxNodeAttribute::eNull)\n\t\t{\n\t\t}\n\t}\n\telse\n\t{\n\t\t// Draw a Null for nodes without attribute.\n\t}\n\n}\n\n\nvoid FBXLoader::DrawSkeleton(FbxNode* pNode, FbxAMatrix& pParentGlobalPosition, FbxAMatrix& pGlobalPosition)\n{\n\tFbxSkeleton* lSkeleton = (FbxSkeleton*) pNode->GetNodeAttribute();\n\n\t// Only draw the skeleton if it's a limb node and if \n\t// the parent also has an attribute of type skeleton.\n\tif (lSkeleton->GetSkeletonType() == FbxSkeleton::eLimbNode &&\n\t\tpNode->GetParent() &&\n\t\tpNode->GetParent()->GetNodeAttribute() &&\n\t\tpNode->GetParent()->GetNodeAttribute()->GetAttributeType() == FbxNodeAttribute::eSkeleton)\n\t{\n\t\tGlDrawLimbNode(pParentGlobalPosition, pGlobalPosition); \n\t}\n}\n\n\nvoid FBXLoader::DrawMesh(FbxNode* pNode, FbxTime& pTime, FbxAnimLayer* pAnimLayer,FbxAMatrix& pGlobalPosition, FbxPose* pPose)\n{\n\n\tFbxMesh* lMesh = pNode->GetMesh();\n\tconst int lVertexCount = lMesh->GetControlPointsCount();\n\n\t// No vertex to draw.\n\tif (lVertexCount == 0)\n\t{\n\t\treturn;\n\t}\n\n\tconst VBOMesh * lMeshCache = static_cast<const VBOMesh *>(lMesh->GetUserDataPtr());\n\n\t// If it has some defomer connection, update the vertices position\n\tconst bool lHasVertexCache = lMesh->GetDeformerCount(FbxDeformer::eVertexCache) &&\n\t\t(static_cast<FbxVertexCacheDeformer*>(lMesh->GetDeformer(0, FbxDeformer::eVertexCache)))->IsActive();\n\tconst bool lHasShape = lMesh->GetShapeCount() > 0;\n\tconst bool lHasSkin = lMesh->GetDeformerCount(FbxDeformer::eSkin) > 0;\n\tconst bool lHasDeformation = lHasVertexCache || lHasShape || lHasSkin;\n\n\tFbxVector4* lVertexArray = NULL;\n\tif (!lMeshCache || lHasDeformation)\n\t{\n\t\tlVertexArray = new FbxVector4[lVertexCount];\n\t\tmemcpy(lVertexArray, lMesh->GetControlPoints(), lVertexCount * sizeof(FbxVector4));\n\t}\n\n\tif (lHasDeformation)\n\t{\n\t\t// Active vertex cache deformer will overwrite any other deformer\n\t\tif (lHasVertexCache)\n\t\t{\n\t\t\tReadVertexCacheData(lMesh, pTime, lVertexArray);\n\t\t}\n\t\telse\n\t\t{\n\t\t\tif (lHasShape)\n\t\t\t{\n\t\t\t\t// Deform the vertex array with the shapes.\n\t\t\t\tComputeShapeDeformation(lMesh, pTime, pAnimLayer, lVertexArray);\n\t\t\t}\n\n\t\t\t//we need to get the number of clusters\n\t\t\tconst int lSkinCount = lMesh->GetDeformerCount(FbxDeformer::eSkin);\n\t\t\tint lClusterCount = 0;\n\t\t\tfor (int lSkinIndex = 0; lSkinIndex < lSkinCount; ++lSkinIndex)\n\t\t\t{\n\t\t\t\tlClusterCount += ((FbxSkin *)(lMesh->GetDeformer(lSkinIndex, FbxDeformer::eSkin)))->GetClusterCount();\n\t\t\t}\n\t\t\tif (lClusterCount)\n\t\t\t{\n\t\t\t\t// Deform the vertex array with the skin deformer.\n\t\t\t\tComputeSkinDeformation(pGlobalPosition, lMesh, pTime, lVertexArray, pPose);\n\t\t\t}\n\t\t}\n\n\t\tif (lMeshCache)\n\t\t\tlMeshCache->UpdateVertexPosition(lMesh, lVertexArray);\n\t}\n\n\tglPushMatrix();\n\tglMultMatrixd((const double*)pGlobalPosition);\n\n\tif (lMeshCache)\n\t{\n\t\tlMeshCache->BeginDraw();\n\t\tconst int lSubMeshCount = lMeshCache->GetSubMeshCount();\n\t\tfor (int lIndex = 0; lIndex < lSubMeshCount; ++lIndex)\n\t\t{\n\n\t\t\tconst FbxSurfaceMaterial * lMaterial = pNode->GetMaterial(lIndex);\n\t\t\tif (lMaterial)\n\t\t\t{\n\t\t\t\tconst MaterialCache * lMaterialCache = static_cast<const MaterialCache *>(lMaterial->GetUserDataPtr());\n\t\t\t\tif (lMaterialCache)\n\t\t\t\t{\n\t\t\t\t\tlMaterialCache->SetCurrentMaterial();\n\t\t\t\t}\n\t\t\t}\n\t\t\telse\n\t\t\t{\n\t\t\t\t// Draw green for faces without material\n\t\t\t\tMaterialCache::SetDefaultMaterial();\n\t\t\t}\n\n\n\t\t\tlMeshCache->Draw(lIndex);\n\t\t}\n\t\tlMeshCache->EndDraw();\n\t}\n\telse\n\t{\n\t\t// OpenGL driver is too lower and use Immediate Mode\n\t\tglColor4f(0.5f, 0.5f, 0.5f, 1.0f);\n\t\tconst int lPolygonCount = lMesh->GetPolygonCount();\n\t\tfor (int lPolygonIndex = 0; lPolygonIndex < lPolygonCount; lPolygonIndex++)\n\t\t{\n\t\t\tconst int lVerticeCount = lMesh->GetPolygonSize(lPolygonIndex);\n\t\t\tglBegin(GL_LINE_LOOP);\n\t\t\tfor (int lVerticeIndex = 0; lVerticeIndex < lVerticeCount; lVerticeIndex++)\n\t\t\t{\n\t\t\t\tglVertex3dv((GLdouble *)lVertexArray[lMesh->GetPolygonVertex(lPolygonIndex, lVerticeIndex)]);\n\t\t\t}\n\t\t\tglEnd();\n\t\t}\n\t}\n\n\tglPopMatrix();\n\n\tdelete [] lVertexArray;\n\n}\n\n\nvoid FBXLoader::GlDrawLimbNode(FbxAMatrix& pGlobalBasePosition, FbxAMatrix& pGlobalEndPosition)\n{\n\tglColor3f(1.0, 0.0, 0.0);\n\tglLineWidth(2.0);\n\n\tglBegin(GL_LINES);\n\n\tglVertex3dv((GLdouble *)pGlobalBasePosition.GetT());\n\tglVertex3dv((GLdouble *)pGlobalEndPosition.GetT());\n\n\tglEnd();\n}\n\n\nvoid FBXLoader::ReadVertexCacheData(FbxMesh* pMesh,  FbxTime& pTime, FbxVector4* pVertexArray)\n{\n\n\tFbxVertexCacheDeformer* lDeformer     = static_cast<FbxVertexCacheDeformer*>(pMesh->GetDeformer(0, FbxDeformer::eVertexCache));\n\tFbxCache*               lCache        = lDeformer->GetCache();\n\tint                      lChannelIndex = -1;\n\tunsigned int             lVertexCount  = (unsigned int)pMesh->GetControlPointsCount();\n\tbool                     lReadSucceed  = false;\n\tdouble*                  lReadBuf      = new double[3*lVertexCount];\n\n\tif (lCache->GetCacheFileFormat() == FbxCache::eMayaCache)\n\t{\n\t\tif ((lChannelIndex = lCache->GetChannelIndex(lDeformer->GetCacheChannel())) > -1)\n\t\t{\n\t\t\tlReadSucceed = lCache->Read(lChannelIndex, pTime, lReadBuf, lVertexCount);\n\t\t}\n\t}\n\telse // eMaxPointCacheV2\n\t{\n\t\tlReadSucceed = lCache->Read((unsigned int)pTime.GetFrameCount(), lReadBuf, lVertexCount);\n\t}\n\n\tif (lReadSucceed)\n\t{\n\t\tunsigned int lReadBufIndex = 0;\n\n\t\twhile (lReadBufIndex < 3*lVertexCount)\n\t\t{\n\t\t\t// In statements like \"pVertexArray[lReadBufIndex/3].SetAt(2, lReadBuf[lReadBufIndex++])\", \n\t\t\t// on Mac platform, \"lReadBufIndex++\" is evaluated before \"lReadBufIndex/3\". \n\t\t\t// So separate them.\n\t\t\tpVertexArray[lReadBufIndex/3].mData[0] = lReadBuf[lReadBufIndex]; lReadBufIndex++;\n\t\t\tpVertexArray[lReadBufIndex/3].mData[1] = lReadBuf[lReadBufIndex]; lReadBufIndex++;\n\t\t\tpVertexArray[lReadBufIndex/3].mData[2] = lReadBuf[lReadBufIndex]; lReadBufIndex++;\n\t\t}\n\t}\n\n\tdelete [] lReadBuf;\n\n}\n\nvoid FBXLoader::ComputeShapeDeformation(FbxMesh* pMesh, FbxTime& pTime, FbxAnimLayer * pAnimLayer, FbxVector4* pVertexArray)\n{\n\n\n\tint lVertexCount = pMesh->GetControlPointsCount();\n\n\tFbxVector4* lSrcVertexArray = pVertexArray;\n\tFbxVector4* lDstVertexArray = new FbxVector4[lVertexCount];\n\tmemcpy(lDstVertexArray, pVertexArray, lVertexCount * sizeof(FbxVector4));\n\n\tint lBlendShapeDeformerCount = pMesh->GetDeformerCount(FbxDeformer::eBlendShape);\n\tfor(int lBlendShapeIndex = 0; lBlendShapeIndex<lBlendShapeDeformerCount; ++lBlendShapeIndex)\n\t{\n\t\tFbxBlendShape* lBlendShape = (FbxBlendShape*)pMesh->GetDeformer(lBlendShapeIndex, FbxDeformer::eBlendShape);\n\n\t\tint lBlendShapeChannelCount = lBlendShape->GetBlendShapeChannelCount();\n\t\tfor(int lChannelIndex = 0; lChannelIndex<lBlendShapeChannelCount; ++lChannelIndex)\n\t\t{\n\t\t\tFbxBlendShapeChannel* lChannel = lBlendShape->GetBlendShapeChannel(lChannelIndex);\n\t\t\tif(lChannel)\n\t\t\t{\n\t\t\t\t// Get the percentage of influence on this channel.\n\t\t\t\tFbxAnimCurve* lFCurve = pMesh->GetShapeChannel(lBlendShapeIndex, lChannelIndex, pAnimLayer);\n\t\t\t\tif (!lFCurve) continue;\n\t\t\t\tdouble lWeight = lFCurve->Evaluate(pTime);\n\n\t\t\t\t/*\n\t\t\t\tIf there is only one targetShape on this channel, the influence is easy to calculate:\n\t\t\t\tinfluence = (targetShape - baseGeometry) * weight * 0.01\n\t\t\t\tdstGeometry = baseGeometry + influence\n\n\t\t\t\tBut if there are more than one targetShapes on this channel, this is an in-between \n\t\t\t\tblendshape, also called progressive morph. The calculation of influence is different.\n\n\t\t\t\tFor example, given two in-between targets, the full weight percentage of first target\n\t\t\t\tis 50, and the full weight percentage of the second target is 100.\n\t\t\t\tWhen the weight percentage reach 50, the base geometry is already be fully morphed \n\t\t\t\tto the first target shape. When the weight go over 50, it begin to morph from the \n\t\t\t\tfirst target shape to the second target shape.\n\n\t\t\t\tTo calculate influence when the weight percentage is 25:\n\t\t\t\t1. 25 falls in the scope of 0 and 50, the morphing is from base geometry to the first target.\n\t\t\t\t2. And since 25 is already half way between 0 and 50, so the real weight percentage change to \n\t\t\t\tthe first target is 50.\n\t\t\t\tinfluence = (firstTargetShape - baseGeometry) * (25-0)/(50-0) * 100\n\t\t\t\tdstGeometry = baseGeometry + influence\n\n\t\t\t\tTo calculate influence when the weight percentage is 75:\n\t\t\t\t1. 75 falls in the scope of 50 and 100, the morphing is from the first target to the second.\n\t\t\t\t2. And since 75 is already half way between 50 and 100, so the real weight percentage change \n\t\t\t\tto the second target is 50.\n\t\t\t\tinfluence = (secondTargetShape - firstTargetShape) * (75-50)/(100-50) * 100\n\t\t\t\tdstGeometry = firstTargetShape + influence\n\t\t\t\t*/\n\n\t\t\t\t// Find the two shape indices for influence calculation according to the weight.\n\t\t\t\t// Consider index of base geometry as -1.\n\n\t\t\t\tint lShapeCount = lChannel->GetTargetShapeCount();\n\t\t\t\tdouble* lFullWeights = lChannel->GetTargetShapeFullWeights();\n\n\t\t\t\t// Find out which scope the lWeight falls in.\n\t\t\t\tint lStartIndex = -1;\n\t\t\t\tint lEndIndex = -1;\n\t\t\t\tfor(int lShapeIndex = 0; lShapeIndex<lShapeCount; ++lShapeIndex)\n\t\t\t\t{\n\t\t\t\t\tif(lWeight > 0 && lWeight <= lFullWeights[0])\n\t\t\t\t\t{\n\t\t\t\t\t\tlEndIndex = 0;\n\t\t\t\t\t\tbreak;\n\t\t\t\t\t}\n\t\t\t\t\tif(lWeight > lFullWeights[lShapeIndex] && lWeight < lFullWeights[lShapeIndex+1])\n\t\t\t\t\t{\n\t\t\t\t\t\tlStartIndex = lShapeIndex;\n\t\t\t\t\t\tlEndIndex = lShapeIndex + 1;\n\t\t\t\t\t\tbreak;\n\t\t\t\t\t}\n\t\t\t\t}\n\n\t\t\t\tFbxShape* lStartShape = NULL;\n\t\t\t\tFbxShape* lEndShape = NULL;\n\t\t\t\tif(lStartIndex > -1)\n\t\t\t\t{\n\t\t\t\t\tlStartShape = lChannel->GetTargetShape(lStartIndex);\n\t\t\t\t}\n\t\t\t\tif(lEndIndex > -1)\n\t\t\t\t{\n\t\t\t\t\tlEndShape = lChannel->GetTargetShape(lEndIndex);\n\t\t\t\t}\n\n\t\t\t\t//The weight percentage falls between base geometry and the first target shape.\n\t\t\t\tif(lStartIndex == -1 && lEndShape) \n\t\t\t\t{\n\t\t\t\t\tdouble lEndWeight = lFullWeights[0];\n\t\t\t\t\t// Calculate the real weight.\n\t\t\t\t\tlWeight = (lWeight/lEndWeight) * 100;\n\t\t\t\t\t// Initialize the lDstVertexArray with vertex of base geometry.\n\t\t\t\t\tmemcpy(lDstVertexArray, lSrcVertexArray, lVertexCount * sizeof(FbxVector4));\n\t\t\t\t\tfor (int j = 0; j < lVertexCount; j++)\n\t\t\t\t\t{\n\t\t\t\t\t\t// Add the influence of the shape vertex to the mesh vertex.\n\t\t\t\t\t\tFbxVector4 lInfluence = (lEndShape->GetControlPoints()[j] - lSrcVertexArray[j]) * lWeight * 0.01;\n\t\t\t\t\t\tlDstVertexArray[j] += lInfluence;\n\t\t\t\t\t}\t\n\t\t\t\t}\n\t\t\t\t//The weight percentage falls between two target shapes.\n\t\t\t\telse if(lStartShape && lEndShape)\n\t\t\t\t{\n\t\t\t\t\tdouble lStartWeight = lFullWeights[lStartIndex];\n\t\t\t\t\tdouble lEndWeight = lFullWeights[lEndIndex];\n\t\t\t\t\t// Calculate the real weight.\n\t\t\t\t\tlWeight = ((lWeight-lStartWeight)/(lEndWeight-lStartWeight)) * 100;\n\t\t\t\t\t// Initialize the lDstVertexArray with vertex of the previous target shape geometry.\n\t\t\t\t\tmemcpy(lDstVertexArray, lStartShape->GetControlPoints(), lVertexCount * sizeof(FbxVector4));\n\t\t\t\t\tfor (int j = 0; j < lVertexCount; j++)\n\t\t\t\t\t{\n\t\t\t\t\t\t// Add the influence of the shape vertex to the previous shape vertex.\n\t\t\t\t\t\tFbxVector4 lInfluence = (lEndShape->GetControlPoints()[j] - lStartShape->GetControlPoints()[j]) * lWeight * 0.01;\n\t\t\t\t\t\tlDstVertexArray[j] += lInfluence;\n\t\t\t\t\t}\t\n\t\t\t\t}\n\t\t\t}//If lChannel is valid\n\t\t}//For each blend shape channel\n\t}//For each blend shape deformer\n\n\tmemcpy(pVertexArray, lDstVertexArray, lVertexCount * sizeof(FbxVector4));\n\n\tdelete [] lDstVertexArray;\n\n}\n\n\nvoid FBXLoader::ComputeSkinDeformation(FbxAMatrix& pGlobalPosition, FbxMesh* pMesh,  FbxTime& pTime, FbxVector4* pVertexArray, FbxPose* pPose)\n{\n\n\tFbxSkin * lSkinDeformer = (FbxSkin *)pMesh->GetDeformer(0, FbxDeformer::eSkin);\n\tFbxSkin::EType lSkinningType = lSkinDeformer->GetSkinningType();\n\n\tif(lSkinningType == FbxSkin::eLinear || lSkinningType == FbxSkin::eRigid)\n\t{\n\t\tComputeLinearDeformation(pGlobalPosition, pMesh, pTime, pVertexArray, pPose);\n\t}\n\telse if(lSkinningType == FbxSkin::eDualQuaternion)\n\t{\n\t\tComputeDualQuaternionDeformation(pGlobalPosition, pMesh, pTime, pVertexArray, pPose);\n\t}\n\telse if(lSkinningType == FbxSkin::eBlend)\n\t{\n\t\tint lVertexCount = pMesh->GetControlPointsCount();\n\n\t\tFbxVector4* lVertexArrayLinear = new FbxVector4[lVertexCount];\n\t\tmemcpy(lVertexArrayLinear, pMesh->GetControlPoints(), lVertexCount * sizeof(FbxVector4));\n\n\t\tFbxVector4* lVertexArrayDQ = new FbxVector4[lVertexCount];\n\t\tmemcpy(lVertexArrayDQ, pMesh->GetControlPoints(), lVertexCount * sizeof(FbxVector4));\n\n\t\tComputeLinearDeformation(pGlobalPosition, pMesh, pTime, lVertexArrayLinear, pPose);\n\t\tComputeDualQuaternionDeformation(pGlobalPosition, pMesh, pTime, lVertexArrayDQ, pPose);\n\n\t\t// To blend the skinning according to the blend weights\n\t\t// Final vertex = DQSVertex * blend weight + LinearVertex * (1- blend weight)\n\t\t// DQSVertex: vertex that is deformed by dual quaternion skinning method;\n\t\t// LinearVertex: vertex that is deformed by classic linear skinning method;\n\t\tint lBlendWeightsCount = lSkinDeformer->GetControlPointIndicesCount();\n\t\tfor(int lBWIndex = 0; lBWIndex<lBlendWeightsCount; ++lBWIndex)\n\t\t{\n\t\t\tdouble lBlendWeight = lSkinDeformer->GetControlPointBlendWeights()[lBWIndex];\n\t\t\tpVertexArray[lBWIndex] = lVertexArrayDQ[lBWIndex] * lBlendWeight + lVertexArrayLinear[lBWIndex] * (1 - lBlendWeight);\n\t\t}\n\t}\n\n}\n\n\nvoid FBXLoader::ComputeLinearDeformation(FbxAMatrix& pGlobalPosition, FbxMesh* pMesh, FbxTime& pTime, FbxVector4* pVertexArray, FbxPose* pPose)\n{\n\n\t// All the links must have the same link mode.\n\tFbxCluster::ELinkMode lClusterMode = ((FbxSkin*)pMesh->GetDeformer(0, FbxDeformer::eSkin))->GetCluster(0)->GetLinkMode();\n\n\tint lVertexCount = pMesh->GetControlPointsCount();\n\tFbxAMatrix* lClusterDeformation = new FbxAMatrix[lVertexCount];\n\tmemset(lClusterDeformation, 0, lVertexCount * sizeof(FbxAMatrix));\n\n\tdouble* lClusterWeight = new double[lVertexCount];\n\tmemset(lClusterWeight, 0, lVertexCount * sizeof(double));\n\n\tif (lClusterMode == FbxCluster::eAdditive)\n\t{\n\t\tfor (int i = 0; i < lVertexCount; ++i)\n\t\t{\n\t\t\tlClusterDeformation[i].SetIdentity();\n\t\t}\n\t}\n\n\t// For all skins and all clusters, accumulate their deformation and weight\n\t// on each vertices and store them in lClusterDeformation and lClusterWeight.\n\tint lSkinCount = pMesh->GetDeformerCount(FbxDeformer::eSkin);\n\tfor ( int lSkinIndex=0; lSkinIndex<lSkinCount; ++lSkinIndex)\n\t{\n\t\tFbxSkin * lSkinDeformer = (FbxSkin *)pMesh->GetDeformer(lSkinIndex, FbxDeformer::eSkin);\n\n\t\tint lClusterCount = lSkinDeformer->GetClusterCount();\n\t\tfor ( int lClusterIndex=0; lClusterIndex<lClusterCount; ++lClusterIndex)\n\t\t{\n\t\t\tFbxCluster* lCluster = lSkinDeformer->GetCluster(lClusterIndex);\n\t\t\tif (!lCluster->GetLink())\n\t\t\t\tcontinue;\n\n\t\t\tFbxAMatrix lVertexTransformMatrix;\n\t\t\tComputeClusterDeformation(pGlobalPosition, pMesh, lCluster, lVertexTransformMatrix, pTime, pPose);\n\n\t\t\tint lVertexIndexCount = lCluster->GetControlPointIndicesCount();\n\t\t\tfor (int k = 0; k < lVertexIndexCount; ++k) \n\t\t\t{            \n\t\t\t\tint lIndex = lCluster->GetControlPointIndices()[k];\n\n\t\t\t\t// Sometimes, the mesh can have less points than at the time of the skinning\n\t\t\t\t// because a smooth operator was active when skinning but has been deactivated during export.\n\t\t\t\tif (lIndex >= lVertexCount)\n\t\t\t\t\tcontinue;\n\n\t\t\t\tdouble lWeight = lCluster->GetControlPointWeights()[k];\n\n\t\t\t\tif (lWeight == 0.0)\n\t\t\t\t{\n\t\t\t\t\tcontinue;\n\t\t\t\t}\n\n\t\t\t\t// Compute the influence of the link on the vertex.\n\t\t\t\tFbxAMatrix lInfluence = lVertexTransformMatrix;\n\t\t\t\tMatrixScale(lInfluence, lWeight);\n\n\t\t\t\tif (lClusterMode == FbxCluster::eAdditive)\n\t\t\t\t{    \n\t\t\t\t\t// Multiply with the product of the deformations on the vertex.\n\t\t\t\t\tMatrixAddToDiagonal(lInfluence, 1.0 - lWeight);\n\t\t\t\t\tlClusterDeformation[lIndex] = lInfluence * lClusterDeformation[lIndex];\n\n\t\t\t\t\t// Set the link to 1.0 just to know this vertex is influenced by a link.\n\t\t\t\t\tlClusterWeight[lIndex] = 1.0;\n\t\t\t\t}\n\t\t\t\telse // lLinkMode == FbxCluster::eNormalize || lLinkMode == FbxCluster::eTotalOne\n\t\t\t\t{\n\t\t\t\t\t// Add to the sum of the deformations on the vertex.\n\t\t\t\t\tMatrixAdd(lClusterDeformation[lIndex], lInfluence);\n\n\t\t\t\t\t// Add to the sum of weights to either normalize or complete the vertex.\n\t\t\t\t\tlClusterWeight[lIndex] += lWeight;\n\t\t\t\t}\n\t\t\t}//For each vertex\t\t\t\n\t\t}//lClusterCount\n\t}\n\n\t//Actually deform each vertices here by information stored in lClusterDeformation and lClusterWeight\n\tfor (int i = 0; i < lVertexCount; i++) \n\t{\n\t\tFbxVector4 lSrcVertex = pVertexArray[i];\n\t\tFbxVector4& lDstVertex = pVertexArray[i];\n\t\tdouble lWeight = lClusterWeight[i];\n\n\t\t// Deform the vertex if there was at least a link with an influence on the vertex,\n\t\tif (lWeight != 0.0) \n\t\t{\n\t\t\tlDstVertex = lClusterDeformation[i].MultT(lSrcVertex);\n\t\t\tif (lClusterMode == FbxCluster::eNormalize)\n\t\t\t{\n\t\t\t\t// In the normalized link mode, a vertex is always totally influenced by the links. \n\t\t\t\tlDstVertex /= lWeight;\n\t\t\t}\n\t\t\telse if (lClusterMode == FbxCluster::eTotalOne)\n\t\t\t{\n\t\t\t\t// In the total 1 link mode, a vertex can be partially influenced by the links. \n\t\t\t\tlSrcVertex *= (1.0 - lWeight);\n\t\t\t\tlDstVertex += lSrcVertex;\n\t\t\t}\n\t\t} \n\t}\n\n\tdelete [] lClusterDeformation;\n\tdelete [] lClusterWeight;\n\n}\n\n\nvoid FBXLoader::ComputeClusterDeformation(FbxAMatrix& pGlobalPosition, \n\t\t\t\t\t\t\t\t\t\t  FbxMesh* pMesh,FbxCluster* pCluster, FbxAMatrix& pVertexTransformMatrix,FbxTime pTime, FbxPose* pPose)\n{\n\n\tFbxCluster::ELinkMode lClusterMode = pCluster->GetLinkMode();\n\n\tFbxAMatrix lReferenceGlobalInitPosition;\n\tFbxAMatrix lReferenceGlobalCurrentPosition;\n\tFbxAMatrix lAssociateGlobalInitPosition;\n\tFbxAMatrix lAssociateGlobalCurrentPosition;\n\tFbxAMatrix lClusterGlobalInitPosition;\n\tFbxAMatrix lClusterGlobalCurrentPosition;\n\n\tFbxAMatrix lReferenceGeometry;\n\tFbxAMatrix lAssociateGeometry;\n\tFbxAMatrix lClusterGeometry;\n\n\tFbxAMatrix lClusterRelativeInitPosition;\n\tFbxAMatrix lClusterRelativeCurrentPositionInverse;\n\n\tif (lClusterMode == FbxCluster::eAdditive && pCluster->GetAssociateModel())\n\t{\n\t\tpCluster->GetTransformAssociateModelMatrix(lAssociateGlobalInitPosition);\n\t\t// Geometric transform of the model\n\t\tlAssociateGeometry = GetGeometry(pCluster->GetAssociateModel());\n\t\tlAssociateGlobalInitPosition *= lAssociateGeometry;\n\t\tlAssociateGlobalCurrentPosition = GetGlobalPosition(pCluster->GetAssociateModel(), pTime, pPose);\n\n\t\tpCluster->GetTransformMatrix(lReferenceGlobalInitPosition);\n\t\t// Multiply lReferenceGlobalInitPosition by Geometric Transformation\n\t\tlReferenceGeometry = GetGeometry(pMesh->GetNode());\n\t\tlReferenceGlobalInitPosition *= lReferenceGeometry;\n\t\tlReferenceGlobalCurrentPosition = pGlobalPosition;\n\n\t\t// Get the link initial global position and the link current global position.\n\t\tpCluster->GetTransformLinkMatrix(lClusterGlobalInitPosition);\n\t\t// Multiply lClusterGlobalInitPosition by Geometric Transformation\n\t\tlClusterGeometry = GetGeometry(pCluster->GetLink());\n\t\tlClusterGlobalInitPosition *= lClusterGeometry;\n\t\tlClusterGlobalCurrentPosition = GetGlobalPosition(pCluster->GetLink(), pTime, pPose);\n\n\t\t// Compute the shift of the link relative to the reference.\n\t\t//ModelM-1 * AssoM * AssoGX-1 * LinkGX * LinkM-1*ModelM\n\t\tpVertexTransformMatrix = lReferenceGlobalInitPosition.Inverse() * lAssociateGlobalInitPosition * lAssociateGlobalCurrentPosition.Inverse() *\n\t\t\tlClusterGlobalCurrentPosition * lClusterGlobalInitPosition.Inverse() * lReferenceGlobalInitPosition;\n\t}\n\telse\n\t{\n\t\tpCluster->GetTransformMatrix(lReferenceGlobalInitPosition);\n\t\tlReferenceGlobalCurrentPosition = pGlobalPosition;\n\t\t// Multiply lReferenceGlobalInitPosition by Geometric Transformation\n\t\tlReferenceGeometry = GetGeometry(pMesh->GetNode());\n\t\tlReferenceGlobalInitPosition *= lReferenceGeometry;\n\n\t\t// Get the link initial global position and the link current global position.\n\t\tpCluster->GetTransformLinkMatrix(lClusterGlobalInitPosition);\n\t\tlClusterGlobalCurrentPosition = GetGlobalPosition(pCluster->GetLink(), pTime, pPose);\n\n\t\t// Compute the initial position of the link relative to the reference.\n\t\tlClusterRelativeInitPosition = lClusterGlobalInitPosition.Inverse() * lReferenceGlobalInitPosition;\n\n\t\t// Compute the current position of the link relative to the reference.\n\t\tlClusterRelativeCurrentPositionInverse = lReferenceGlobalCurrentPosition.Inverse() * lClusterGlobalCurrentPosition;\n\n\t\t// Compute the shift of the link relative to the reference.\n\t\tpVertexTransformMatrix = lClusterRelativeCurrentPositionInverse * lClusterRelativeInitPosition;\n\t}\n\n}\n\n\n\nvoid FBXLoader::MatrixScale(FbxAMatrix& pMatrix, double pValue)\n{\n\n\tint i,j;\n\n\tfor (i = 0; i < 4; i++)\n\t{\n\t\tfor (j = 0; j < 4; j++)\n\t\t{\n\t\t\tpMatrix[i][j] *= pValue;\n\t\t}\n\t}\n\n}\n\nvoid FBXLoader::MatrixAddToDiagonal(FbxAMatrix& pMatrix, double pValue)\n{\n\tpMatrix[0][0] += pValue;\n\tpMatrix[1][1] += pValue;\n\tpMatrix[2][2] += pValue;\n\tpMatrix[3][3] += pValue;\n}\n\n\nvoid FBXLoader::MatrixAdd(FbxAMatrix& pDstMatrix, FbxAMatrix& pSrcMatrix)\n{\n\n\tint i,j;\n\n\tfor (i = 0; i < 4; i++)\n\t{\n\t\tfor (j = 0; j < 4; j++)\n\t\t{\n\t\t\tpDstMatrix[i][j] += pSrcMatrix[i][j];\n\t\t}\n\t}\n\n}\n\n\nvoid FBXLoader::ComputeDualQuaternionDeformation(FbxAMatrix& pGlobalPosition, \n\t\t\t\t\t\t\t\t\t\t\t\t FbxMesh* pMesh, FbxTime& pTime,FbxVector4* pVertexArray,FbxPose* pPose)\n{\n\n\t// All the links must have the same link mode.\n\tFbxCluster::ELinkMode lClusterMode = ((FbxSkin*)pMesh->GetDeformer(0, FbxDeformer::eSkin))->GetCluster(0)->GetLinkMode();\n\n\tint lVertexCount = pMesh->GetControlPointsCount();\n\tint lSkinCount = pMesh->GetDeformerCount(FbxDeformer::eSkin);\n\n\tFbxDualQuaternion* lDQClusterDeformation = new FbxDualQuaternion[lVertexCount];\n\tmemset(lDQClusterDeformation, 0, lVertexCount * sizeof(FbxDualQuaternion));\n\n\tdouble* lClusterWeight = new double[lVertexCount];\n\tmemset(lClusterWeight, 0, lVertexCount * sizeof(double));\n\n\t// For all skins and all clusters, accumulate their deformation and weight\n\t// on each vertices and store them in lClusterDeformation and lClusterWeight.\n\tfor ( int lSkinIndex=0; lSkinIndex<lSkinCount; ++lSkinIndex)\n\t{\n\t\tFbxSkin * lSkinDeformer = (FbxSkin *)pMesh->GetDeformer(lSkinIndex, FbxDeformer::eSkin);\n\t\tint lClusterCount = lSkinDeformer->GetClusterCount();\n\t\tfor ( int lClusterIndex=0; lClusterIndex<lClusterCount; ++lClusterIndex)\n\t\t{\n\t\t\tFbxCluster* lCluster = lSkinDeformer->GetCluster(lClusterIndex);\n\t\t\tif (!lCluster->GetLink())\n\t\t\t\tcontinue;\n\n\t\t\tFbxAMatrix lVertexTransformMatrix;\n\t\t\tComputeClusterDeformation(pGlobalPosition, pMesh, lCluster, lVertexTransformMatrix, pTime, pPose);\n\n\t\t\tFbxQuaternion lQ = lVertexTransformMatrix.GetQ();\n\t\t\tFbxVector4 lT = lVertexTransformMatrix.GetT();\n\t\t\tFbxDualQuaternion lDualQuaternion(lQ, lT);\n\n\t\t\tint lVertexIndexCount = lCluster->GetControlPointIndicesCount();\n\t\t\tfor (int k = 0; k < lVertexIndexCount; ++k) \n\t\t\t{ \n\t\t\t\tint lIndex = lCluster->GetControlPointIndices()[k];\n\n\t\t\t\t// Sometimes, the mesh can have less points than at the time of the skinning\n\t\t\t\t// because a smooth operator was active when skinning but has been deactivated during export.\n\t\t\t\tif (lIndex >= lVertexCount)\n\t\t\t\t\tcontinue;\n\n\t\t\t\tdouble lWeight = lCluster->GetControlPointWeights()[k];\n\n\t\t\t\tif (lWeight == 0.0)\n\t\t\t\t\tcontinue;\n\n\t\t\t\t// Compute the influence of the link on the vertex.\n\t\t\t\tFbxDualQuaternion lInfluence = lDualQuaternion * lWeight;\n\t\t\t\tif (lClusterMode == FbxCluster::eAdditive)\n\t\t\t\t{    \n\t\t\t\t\t// Simply influenced by the dual quaternion.\n\t\t\t\t\tlDQClusterDeformation[lIndex] = lInfluence;\n\n\t\t\t\t\t// Set the link to 1.0 just to know this vertex is influenced by a link.\n\t\t\t\t\tlClusterWeight[lIndex] = 1.0;\n\t\t\t\t}\n\t\t\t\telse // lLinkMode == FbxCluster::eNormalize || lLinkMode == FbxCluster::eTotalOne\n\t\t\t\t{\n\t\t\t\t\tif(lClusterIndex == 0)\n\t\t\t\t\t{\n\t\t\t\t\t\tlDQClusterDeformation[lIndex] = lInfluence;\n\t\t\t\t\t}\n\t\t\t\t\telse\n\t\t\t\t\t{\n\t\t\t\t\t\t// Add to the sum of the deformations on the vertex.\n\t\t\t\t\t\t// Make sure the deformation is accumulated in the same rotation direction. \n\t\t\t\t\t\t// Use dot product to judge the sign.\n\t\t\t\t\t\tdouble lSign = lDQClusterDeformation[lIndex].GetFirstQuaternion().DotProduct(lDualQuaternion.GetFirstQuaternion());\n\t\t\t\t\t\tif( lSign >= 0.0 )\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\tlDQClusterDeformation[lIndex] += lInfluence;\n\t\t\t\t\t\t}\n\t\t\t\t\t\telse\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\tlDQClusterDeformation[lIndex] -= lInfluence;\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t\t// Add to the sum of weights to either normalize or complete the vertex.\n\t\t\t\t\tlClusterWeight[lIndex] += lWeight;\n\t\t\t\t}\n\t\t\t}//For each vertex\n\t\t}//lClusterCount\n\t}\n\n\t//Actually deform each vertices here by information stored in lClusterDeformation and lClusterWeight\n\tfor (int i = 0; i < lVertexCount; i++) \n\t{\n\t\tFbxVector4 lSrcVertex = pVertexArray[i];\n\t\tFbxVector4& lDstVertex = pVertexArray[i];\n\t\tdouble lWeightSum = lClusterWeight[i];\n\n\t\t// Deform the vertex if there was at least a link with an influence on the vertex,\n\t\tif (lWeightSum != 0.0) \n\t\t{\n\t\t\tlDQClusterDeformation[i].Normalize();\n\t\t\tlDstVertex = lDQClusterDeformation[i].Deform(lDstVertex);\n\n\t\t\tif (lClusterMode == FbxCluster::eNormalize)\n\t\t\t{\n\t\t\t\t// In the normalized link mode, a vertex is always totally influenced by the links. \n\t\t\t\tlDstVertex /= lWeightSum;\n\t\t\t}\n\t\t\telse if (lClusterMode == FbxCluster::eTotalOne)\n\t\t\t{\n\t\t\t\t// In the total 1 link mode, a vertex can be partially influenced by the links. \n\t\t\t\tlSrcVertex *= (1.0 - lWeightSum);\n\t\t\t\tlDstVertex += lSrcVertex;\n\t\t\t}\n\t\t} \n\t}\n\n\tdelete [] lDQClusterDeformation;\n\tdelete [] lClusterWeight;\n\n}\n\n\n\nvoid FBXLoader::SetSelectedNode(FbxNode * pSelectedNode)\n{\n\tSelectedNode = pSelectedNode;\n}\n\nvoid FBXLoader::InitializeSdkObjects(FbxManager*& pManager, FbxScene*& pScene)\n{\n\n\t//The first thing to do is to create the FBX Manager which is the object allocator for almost all the classes in the SDK\n\tpManager = FbxManager::Create();\n\tif( !pManager )\n\t{\n\t\tFBXSDK_printf(\"Error: Unable to create FBX Manager!\\n\");\n\t\texit(1);\n\t}\n\telse FBXSDK_printf(\"Autodesk FBX SDK version %s\\n\", pManager->GetVersion());\n\n\t//Create an IOSettings object. This object holds all import/export settings.\n\tFbxIOSettings* ios = FbxIOSettings::Create(pManager, IOSROOT);\n\tpManager->SetIOSettings(ios);\n\n\t//Load plugins from the executable directory (optional)\n\tFbxString lPath = FbxGetApplicationDirectory();\n\tpManager->LoadPluginsDirectory(lPath.Buffer());\n\n\t//Create an FBX scene. This object holds most objects imported/exported from/to files.\n\tpScene = FbxScene::Create(pManager, \"My Scene\");\n\tif( !pScene )\n\t{\n\t\tFBXSDK_printf(\"Error: Unable to create FBX scene!\\n\");\n\t\texit(1);\n\t}\n\n\n}\n\n\nvoid FBXLoader::DestroySdkObjects(FbxManager* pManager, bool pExitStatus)\n{\n\t//Delete the FBX Manager. All the objects that have been allocated using the FBX Manager and that haven't been explicitly destroyed are also automatically destroyed.\n\tif( pManager ) pManager->Destroy();\n\tif( pExitStatus ) FBXSDK_printf(\"Program Success!\\n\");\n}\n\n\nvoid FBXLoader::DisplayGrid(const FbxAMatrix & pTransform)\n{\n\n\tglPushMatrix();\n\tglMultMatrixd(pTransform);\n\n\t// Draw a grid 500*500\n\tglColor3f(0.3f, 0.3f, 0.3f);\n\tglLineWidth(1.0);\n\tconst int hw = 500;\n\tconst int step = 20;\n\tconst int bigstep = 100;\n\tint       i;\n\n\t// Draw Grid\n\tfor (i = -hw; i <= hw; i+=step) {\n\n\t\tif (i % bigstep == 0) {\n\t\t\tglLineWidth(2.0);\n\t\t} else {\n\t\t\tglLineWidth(1.0);\n\t\t}\n\t\tglBegin(GL_LINES);\n\t\tglVertex3i(i,0,-hw);\n\t\tglVertex3i(i,0,hw);\n\t\tglEnd();\n\t\tglBegin(GL_LINES);\n\t\tglVertex3i(-hw,0,i);\n\t\tglVertex3i(hw,0,i);\n\t\tglEnd();\n\n\t}\n\tglPopMatrix();\n\n}  //optional\n\n\n\n///////////////////////////////////////////////////////////VBO_MESH/////////////////////////////////\n\nVBOMesh::VBOMesh() : mHasNormal(false), mHasUV(false), mAllByControlPoint(true)\n{\n\t// Reset every VBO to zero, which means no buffer.\n\tfor (int lVBOIndex = 0; lVBOIndex < VBO_COUNT; ++lVBOIndex)\n\t{\n\t\tmVBONames[lVBOIndex] = 0;\n\t}\n}\n\nVBOMesh::~VBOMesh()\n{\n\t// Delete VBO objects, zeros are ignored automatically.\n\tglDeleteBuffers(VBO_COUNT, mVBONames);\n\n\t//\tFbxArrayDelete(mSubMeshes);\n\n\tfor(int i=0; i < mSubMeshes.GetCount(); i++)\n\t{\n\t\tdelete mSubMeshes[i];\n\t}\n\n\tmSubMeshes.Clear();\n\n}\n\nbool VBOMesh::Initialize(const FbxMesh *pMesh)\n{\n\tif (!pMesh->GetNode())\n\t\treturn false;\n\n\tconst int lPolygonCount = pMesh->GetPolygonCount();\n\n\t// Count the polygon count of each material\n\tFbxLayerElementArrayTemplate<int>* lMaterialIndice = NULL;\n\tFbxGeometryElement::EMappingMode lMaterialMappingMode = FbxGeometryElement::eNone;\n\tif (pMesh->GetElementMaterial())\n\t{\n\t\tlMaterialIndice = &pMesh->GetElementMaterial()->GetIndexArray();\n\t\tlMaterialMappingMode = pMesh->GetElementMaterial()->GetMappingMode();\n\t\tif (lMaterialIndice && lMaterialMappingMode == FbxGeometryElement::eByPolygon)\n\t\t{\n\t\t\tFBX_ASSERT(lMaterialIndice->GetCount() == lPolygonCount);\n\t\t\tif (lMaterialIndice->GetCount() == lPolygonCount)\n\t\t\t{\n\t\t\t\t// Count the faces of each material\n\t\t\t\tfor (int lPolygonIndex = 0; lPolygonIndex < lPolygonCount; ++lPolygonIndex)\n\t\t\t\t{\n\t\t\t\t\tconst int lMaterialIndex = lMaterialIndice->GetAt(lPolygonIndex);\n\t\t\t\t\tif (mSubMeshes.GetCount() < lMaterialIndex + 1)\n\t\t\t\t\t{\n\t\t\t\t\t\tmSubMeshes.Resize(lMaterialIndex + 1);\n\t\t\t\t\t}\n\t\t\t\t\tif (mSubMeshes[lMaterialIndex] == NULL)\n\t\t\t\t\t{\n\t\t\t\t\t\tmSubMeshes[lMaterialIndex] = new SubMesh;\n\t\t\t\t\t}\n\t\t\t\t\tmSubMeshes[lMaterialIndex]->TriangleCount += 1;\n\t\t\t\t}\n\n\t\t\t\t// Make sure we have no \"holes\" (NULL) in the mSubMeshes table. This can happen\n\t\t\t\t// if, in the loop above, we resized the mSubMeshes by more than one slot.\n\t\t\t\tfor (int i = 0; i < mSubMeshes.GetCount(); i++)\n\t\t\t\t{\n\t\t\t\t\tif (mSubMeshes[i] == NULL)\n\t\t\t\t\t\tmSubMeshes[i] = new SubMesh;\n\t\t\t\t}\n\n\t\t\t\t// Record the offset (how many vertex)\n\t\t\t\tconst int lMaterialCount = mSubMeshes.GetCount();\n\t\t\t\tint lOffset = 0;\n\t\t\t\tfor (int lIndex = 0; lIndex < lMaterialCount; ++lIndex)\n\t\t\t\t{\n\t\t\t\t\tmSubMeshes[lIndex]->IndexOffset = lOffset;\n\t\t\t\t\tlOffset += mSubMeshes[lIndex]->TriangleCount * 3;\n\t\t\t\t\t// This will be used as counter in the following procedures, reset to zero\n\t\t\t\t\tmSubMeshes[lIndex]->TriangleCount = 0;\n\t\t\t\t}\n\t\t\t\tFBX_ASSERT(lOffset == lPolygonCount * 3);\n\t\t\t}\n\t\t}\n\t}\n\n\t// All faces will use the same material.\n\tif (mSubMeshes.GetCount() == 0)\n\t{\n\t\tmSubMeshes.Resize(1);\n\t\tmSubMeshes[0] = new SubMesh();\n\t}\n\n\t// Congregate all the data of a mesh to be cached in VBOs.\n\t// If normal or UV is by polygon vertex, record all vertex attributes by polygon vertex.\n\tmHasNormal = pMesh->GetElementNormalCount() > 0;\n\tmHasUV = pMesh->GetElementUVCount() > 0;\n\tFbxGeometryElement::EMappingMode lNormalMappingMode = FbxGeometryElement::eNone;\n\tFbxGeometryElement::EMappingMode lUVMappingMode = FbxGeometryElement::eNone;\n\tif (mHasNormal)\n\t{\n\t\tlNormalMappingMode = pMesh->GetElementNormal(0)->GetMappingMode();\n\t\tif (lNormalMappingMode == FbxGeometryElement::eNone)\n\t\t{\n\t\t\tmHasNormal = false;\n\t\t}\n\t\tif (mHasNormal && lNormalMappingMode != FbxGeometryElement::eByControlPoint)\n\t\t{\n\t\t\tmAllByControlPoint = false;\n\t\t}\n\t}\n\tif (mHasUV)\n\t{\n\t\tlUVMappingMode = pMesh->GetElementUV(0)->GetMappingMode();\n\t\tif (lUVMappingMode == FbxGeometryElement::eNone)\n\t\t{\n\t\t\tmHasUV = false;\n\t\t}\n\t\tif (mHasUV && lUVMappingMode != FbxGeometryElement::eByControlPoint)\n\t\t{\n\t\t\tmAllByControlPoint = false;\n\t\t}\n\t}\n\n\t// Allocate the array memory, by control point or by polygon vertex.\n\tint lPolygonVertexCount = pMesh->GetControlPointsCount();\n\tif (!mAllByControlPoint)\n\t{\n\t\tlPolygonVertexCount = lPolygonCount * TRIANGLE_VERTEX_COUNT;\n\t}\n\tfloat * lVertices = new float[lPolygonVertexCount * VERTEX_STRIDE];\n\tunsigned int * lIndices = new unsigned int[lPolygonCount * TRIANGLE_VERTEX_COUNT];\n\tfloat * lNormals = NULL;\n\tif (mHasNormal)\n\t{\n\t\tlNormals = new float[lPolygonVertexCount * NORMAL_STRIDE];\n\t}\n\tfloat * lUVs = NULL;\n\tFbxStringList lUVNames;\n\tpMesh->GetUVSetNames(lUVNames);\n\tconst char * lUVName = NULL;\n\tif (mHasUV && lUVNames.GetCount())\n\t{\n\t\tlUVs = new float[lPolygonVertexCount * UV_STRIDE];\n\t\tlUVName = lUVNames[0];\n\t}\n\n\t// Populate the array with vertex attribute, if by control point.\n\tconst FbxVector4 * lControlPoints = pMesh->GetControlPoints();\n\tFbxVector4 lCurrentVertex;\n\tFbxVector4 lCurrentNormal;\n\tFbxVector2 lCurrentUV;\n\tif (mAllByControlPoint)\n\t{\n\t\tconst FbxGeometryElementNormal * lNormalElement = NULL;\n\t\tconst FbxGeometryElementUV * lUVElement = NULL;\n\t\tif (mHasNormal)\n\t\t{\n\t\t\tlNormalElement = pMesh->GetElementNormal(0);\n\t\t}\n\t\tif (mHasUV)\n\t\t{\n\t\t\tlUVElement = pMesh->GetElementUV(0);\n\t\t}\n\t\tfor (int lIndex = 0; lIndex < lPolygonVertexCount; ++lIndex)\n\t\t{\n\t\t\t// Save the vertex position.\n\t\t\tlCurrentVertex = lControlPoints[lIndex];\n\t\t\tlVertices[lIndex * VERTEX_STRIDE] = static_cast<float>(lCurrentVertex[0]);\n\t\t\tlVertices[lIndex * VERTEX_STRIDE + 1] = static_cast<float>(lCurrentVertex[1]);\n\t\t\tlVertices[lIndex * VERTEX_STRIDE + 2] = static_cast<float>(lCurrentVertex[2]);\n\t\t\tlVertices[lIndex * VERTEX_STRIDE + 3] = 1;\n\n\t\t\t// Save the normal.\n\t\t\tif (mHasNormal)\n\t\t\t{\n\t\t\t\tint lNormalIndex = lIndex;\n\t\t\t\tif (lNormalElement->GetReferenceMode() == FbxLayerElement::eIndexToDirect)\n\t\t\t\t{\n\t\t\t\t\tlNormalIndex = lNormalElement->GetIndexArray().GetAt(lIndex);\n\t\t\t\t}\n\t\t\t\tlCurrentNormal = lNormalElement->GetDirectArray().GetAt(lNormalIndex);\n\t\t\t\tlNormals[lIndex * NORMAL_STRIDE] = static_cast<float>(lCurrentNormal[0]);\n\t\t\t\tlNormals[lIndex * NORMAL_STRIDE + 1] = static_cast<float>(lCurrentNormal[1]);\n\t\t\t\tlNormals[lIndex * NORMAL_STRIDE + 2] = static_cast<float>(lCurrentNormal[2]);\n\t\t\t}\n\n\t\t\t// Save the UV.\n\t\t\tif (mHasUV)\n\t\t\t{\n\t\t\t\tint lUVIndex = lIndex;\n\t\t\t\tif (lUVElement->GetReferenceMode() == FbxLayerElement::eIndexToDirect)\n\t\t\t\t{\n\t\t\t\t\tlUVIndex = lUVElement->GetIndexArray().GetAt(lIndex);\n\t\t\t\t}\n\t\t\t\tlCurrentUV = lUVElement->GetDirectArray().GetAt(lUVIndex);\n\t\t\t\tlUVs[lIndex * UV_STRIDE] = static_cast<float>(lCurrentUV[0]);\n\t\t\t\tlUVs[lIndex * UV_STRIDE + 1] = static_cast<float>(lCurrentUV[1]);\n\t\t\t}\n\t\t}\n\n\t}\n\n\tint lVertexCount = 0;\n\tfor (int lPolygonIndex = 0; lPolygonIndex < lPolygonCount; ++lPolygonIndex)\n\t{\n\t\t// The material for current face.\n\t\tint lMaterialIndex = 0;\n\t\tif (lMaterialIndice && lMaterialMappingMode == FbxGeometryElement::eByPolygon)\n\t\t{\n\t\t\tlMaterialIndex = lMaterialIndice->GetAt(lPolygonIndex);\n\t\t}\n\n\t\t// Where should I save the vertex attribute index, according to the material\n\t\tconst int lIndexOffset = mSubMeshes[lMaterialIndex]->IndexOffset +\n\t\t\tmSubMeshes[lMaterialIndex]->TriangleCount * 3;\n\t\tfor (int lVerticeIndex = 0; lVerticeIndex < TRIANGLE_VERTEX_COUNT; ++lVerticeIndex)\n\t\t{\n\t\t\tconst int lControlPointIndex = pMesh->GetPolygonVertex(lPolygonIndex, lVerticeIndex);\n\n\t\t\tif (mAllByControlPoint)\n\t\t\t{\n\t\t\t\tlIndices[lIndexOffset + lVerticeIndex] = static_cast<unsigned int>(lControlPointIndex);\n\t\t\t}\n\t\t\t// Populate the array with vertex attribute, if by polygon vertex.\n\t\t\telse\n\t\t\t{\n\t\t\t\tlIndices[lIndexOffset + lVerticeIndex] = static_cast<unsigned int>(lVertexCount);\n\n\t\t\t\tlCurrentVertex = lControlPoints[lControlPointIndex];\n\t\t\t\tlVertices[lVertexCount * VERTEX_STRIDE] = static_cast<float>(lCurrentVertex[0]);\n\t\t\t\tlVertices[lVertexCount * VERTEX_STRIDE + 1] = static_cast<float>(lCurrentVertex[1]);\n\t\t\t\tlVertices[lVertexCount * VERTEX_STRIDE + 2] = static_cast<float>(lCurrentVertex[2]);\n\t\t\t\tlVertices[lVertexCount * VERTEX_STRIDE + 3] = 1;\n\n\t\t\t\tif (mHasNormal)\n\t\t\t\t{\n\t\t\t\t\tpMesh->GetPolygonVertexNormal(lPolygonIndex, lVerticeIndex, lCurrentNormal);\n\t\t\t\t\tlNormals[lVertexCount * NORMAL_STRIDE] = static_cast<float>(lCurrentNormal[0]);\n\t\t\t\t\tlNormals[lVertexCount * NORMAL_STRIDE + 1] = static_cast<float>(lCurrentNormal[1]);\n\t\t\t\t\tlNormals[lVertexCount * NORMAL_STRIDE + 2] = static_cast<float>(lCurrentNormal[2]);\n\t\t\t\t}\n\n\t\t\t\tif (mHasUV)\n\t\t\t\t{\n\t\t\t\t\tbool lUnmappedUV;\n\t\t\t\t\tpMesh->GetPolygonVertexUV(lPolygonIndex, lVerticeIndex, lUVName, lCurrentUV, lUnmappedUV);\n\t\t\t\t\tlUVs[lVertexCount * UV_STRIDE] = static_cast<float>(lCurrentUV[0]);\n\t\t\t\t\tlUVs[lVertexCount * UV_STRIDE + 1] = static_cast<float>(lCurrentUV[1]);\n\t\t\t\t}\n\t\t\t}\n\t\t\t++lVertexCount;\n\t\t}\n\t\tmSubMeshes[lMaterialIndex]->TriangleCount += 1;\n\t}\n\n\t// Create VBOs\n\tglGenBuffers(VBO_COUNT, mVBONames);\n\n\t// Save vertex attributes into GPU\n\tglBindBuffer(GL_ARRAY_BUFFER, mVBONames[VERTEX_VBO]);\n\tglBufferData(GL_ARRAY_BUFFER, lPolygonVertexCount * VERTEX_STRIDE * sizeof(float), lVertices, GL_STATIC_DRAW);\n\tdelete [] lVertices;\n\n\tif (mHasNormal)\n\t{\n\t\tglBindBuffer(GL_ARRAY_BUFFER, mVBONames[NORMAL_VBO]);\n\t\tglBufferData(GL_ARRAY_BUFFER, lPolygonVertexCount * NORMAL_STRIDE * sizeof(float), lNormals, GL_STATIC_DRAW);\n\t\tdelete [] lNormals;\n\t}\n\n\tif (mHasUV)\n\t{\n\t\tglBindBuffer(GL_ARRAY_BUFFER, mVBONames[UV_VBO]);\n\t\tglBufferData(GL_ARRAY_BUFFER, lPolygonVertexCount * UV_STRIDE * sizeof(float), lUVs, GL_STATIC_DRAW);\n\t\tdelete [] lUVs;\n\t}\n\n\tglBindBuffer(GL_ELEMENT_ARRAY_BUFFER, mVBONames[INDEX_VBO]);\n\tglBufferData(GL_ELEMENT_ARRAY_BUFFER, lPolygonCount * TRIANGLE_VERTEX_COUNT * sizeof(unsigned int), lIndices, GL_STATIC_DRAW);\n\tdelete [] lIndices;\n\n\treturn true;\n}\n\nvoid VBOMesh::UpdateVertexPosition(const FbxMesh * pMesh, const FbxVector4 * pVertices) const\n{\n\t// Convert to the same sequence with data in GPU.\n\tfloat * lVertices = NULL;\n\tint lVertexCount = 0;\n\tif (mAllByControlPoint)\n\t{\n\t\tlVertexCount = pMesh->GetControlPointsCount();\n\t\tlVertices = new float[lVertexCount * VERTEX_STRIDE];\n\t\tfor (int lIndex = 0; lIndex < lVertexCount; ++lIndex)\n\t\t{\n\t\t\tlVertices[lIndex * VERTEX_STRIDE] = static_cast<float>(pVertices[lIndex][0]);\n\t\t\tlVertices[lIndex * VERTEX_STRIDE + 1] = static_cast<float>(pVertices[lIndex][1]);\n\t\t\tlVertices[lIndex * VERTEX_STRIDE + 2] = static_cast<float>(pVertices[lIndex][2]);\n\t\t\tlVertices[lIndex * VERTEX_STRIDE + 3] = 1;\n\t\t}\n\t}\n\telse\n\t{\n\t\tconst int lPolygonCount = pMesh->GetPolygonCount();\n\t\tlVertexCount = lPolygonCount * TRIANGLE_VERTEX_COUNT;\n\t\tlVertices = new float[lVertexCount * VERTEX_STRIDE];\n\n\t\tint lVertexCount = 0;\n\t\tfor (int lPolygonIndex = 0; lPolygonIndex < lPolygonCount; ++lPolygonIndex)\n\t\t{\n\t\t\tfor (int lVerticeIndex = 0; lVerticeIndex < TRIANGLE_VERTEX_COUNT; ++lVerticeIndex)\n\t\t\t{\n\t\t\t\tconst int lControlPointIndex = pMesh->GetPolygonVertex(lPolygonIndex, lVerticeIndex);\n\t\t\t\tlVertices[lVertexCount * VERTEX_STRIDE] = static_cast<float>(pVertices[lControlPointIndex][0]);\n\t\t\t\tlVertices[lVertexCount * VERTEX_STRIDE + 1] = static_cast<float>(pVertices[lControlPointIndex][1]);\n\t\t\t\tlVertices[lVertexCount * VERTEX_STRIDE + 2] = static_cast<float>(pVertices[lControlPointIndex][2]);\n\t\t\t\tlVertices[lVertexCount * VERTEX_STRIDE + 3] = 1;\n\t\t\t\t++lVertexCount;\n\t\t\t}\n\t\t}\n\t}\n\n\t// Transfer into GPU.\n\tif (lVertices)\n\t{\n\t\tglBindBuffer(GL_ARRAY_BUFFER, mVBONames[VERTEX_VBO]);\n\t\tglBufferData(GL_ARRAY_BUFFER, lVertexCount * VERTEX_STRIDE * sizeof(float), lVertices, GL_STATIC_DRAW);\n\t\tdelete [] lVertices;\n\t}\n}\n\nvoid VBOMesh::Draw(int pMaterialIndex) const\n{\n\t// Where to start.\n\tGLsizei lOffset = mSubMeshes[pMaterialIndex]->IndexOffset * sizeof(unsigned int);\n\t// if ( pShadingMode == SHADING_MODE_SHADED)\n\t// {\n\tconst GLsizei lElementCount = mSubMeshes[pMaterialIndex]->TriangleCount * 3;\n\tglDrawElements(GL_TRIANGLES, lElementCount, GL_UNSIGNED_INT, reinterpret_cast<const GLvoid *>(lOffset));\n\t// }\n\t//else\n\t//{\n\t//    for (int lIndex = 0; lIndex < mSubMeshes[pMaterialIndex]->TriangleCount; ++lIndex)\n\t//    {\n\t//        // Draw line loop for every triangle.\n\t//        glDrawElements(GL_LINE_LOOP, TRIANGLE_VERTEX_COUNT, GL_UNSIGNED_INT, reinterpret_cast<const GLvoid *>(lOffset));\n\t//        lOffset += sizeof(unsigned int) * TRIANGLE_VERTEX_COUNT;\n\t//    }\n\t//}\n}\n\nvoid VBOMesh::BeginDraw() const\n{\n\t// Push OpenGL attributes.\n\tglPushClientAttrib(GL_CLIENT_VERTEX_ARRAY_BIT);\n\tglPushAttrib(GL_ENABLE_BIT);\n\tglPushAttrib(GL_CURRENT_BIT);\n\tglPushAttrib(GL_LIGHTING_BIT);\n\tglPushAttrib(GL_TEXTURE_BIT);\n\n\t// Set vertex position array.\n\tglBindBuffer(GL_ARRAY_BUFFER, mVBONames[VERTEX_VBO]);\n\tglVertexPointer(VERTEX_STRIDE, GL_FLOAT, 0, 0);\n\tglEnableClientState(GL_VERTEX_ARRAY);\n\n\t// Set normal array.\n\tif (mHasNormal)\n\t{\n\t\tglBindBuffer(GL_ARRAY_BUFFER, mVBONames[NORMAL_VBO]);\n\t\tglNormalPointer(GL_FLOAT, 0, 0);\n\t\tglEnableClientState(GL_NORMAL_ARRAY);\n\t}\n\n\t// Set UV array.\n\tif (mHasUV)\n\t{\n\t\tglBindBuffer(GL_ARRAY_BUFFER, mVBONames[UV_VBO]);\n\t\tglTexCoordPointer(UV_STRIDE, GL_FLOAT, 0, 0);\n\t\tglEnableClientState(GL_TEXTURE_COORD_ARRAY);\n\t}\n\n\t// Set index array.\n\tglBindBuffer(GL_ELEMENT_ARRAY_BUFFER, mVBONames[INDEX_VBO]);\n\n\n\tglEnable(GL_LIGHTING);\n\n\tglEnable(GL_TEXTURE_2D);\n\n\tglEnable(GL_NORMALIZE);\n\n}\n\nvoid VBOMesh::EndDraw() const\n{\n\t// Reset VBO binding.\n\tglBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);\n\n\tglBindBuffer(GL_ARRAY_BUFFER, 0);\n\n\t// Pop OpenGL attributes.\n\tglPopAttrib();\n\tglPopAttrib();\n\tglPopAttrib();\n\tglPopAttrib();\n\tglPopClientAttrib();\n}\n\n\n////////////////////////////////////////////////////////////matrial /////////////////////////////////\n\nMaterialCache::MaterialCache() : mShinness(0)\n{\n\n}\n\nMaterialCache::~MaterialCache()\n{\n\n}\n\n// Bake material properties.\nbool MaterialCache::Initialize(const FbxSurfaceMaterial * pMaterial)\n{\n\tconst FbxDouble3 lEmissive = GetMaterialProperty(pMaterial,\n\t\tFbxSurfaceMaterial::sEmissive, FbxSurfaceMaterial::sEmissiveFactor, mEmissive.mTextureName);\n\tmEmissive.mColor[0] = static_cast<GLfloat>(lEmissive[0]);\n\tmEmissive.mColor[1] = static_cast<GLfloat>(lEmissive[1]);\n\tmEmissive.mColor[2] = static_cast<GLfloat>(lEmissive[2]);\n\n\tconst FbxDouble3 lAmbient = GetMaterialProperty(pMaterial,\n\t\tFbxSurfaceMaterial::sAmbient, FbxSurfaceMaterial::sAmbientFactor, mAmbient.mTextureName);\n\tmAmbient.mColor[0] = static_cast<GLfloat>(lAmbient[0]);\n\tmAmbient.mColor[1] = static_cast<GLfloat>(lAmbient[1]);\n\tmAmbient.mColor[2] = static_cast<GLfloat>(lAmbient[2]);\n\n\tconst FbxDouble3 lDiffuse = GetMaterialProperty(pMaterial,\n\t\tFbxSurfaceMaterial::sDiffuse, FbxSurfaceMaterial::sDiffuseFactor, mDiffuse.mTextureName);\n\tmDiffuse.mColor[0] = static_cast<GLfloat>(lDiffuse[0]);\n\tmDiffuse.mColor[1] = static_cast<GLfloat>(lDiffuse[1]);\n\tmDiffuse.mColor[2] = static_cast<GLfloat>(lDiffuse[2]);\n\n\tconst FbxDouble3 lSpecular = GetMaterialProperty(pMaterial,\n\t\tFbxSurfaceMaterial::sSpecular, FbxSurfaceMaterial::sSpecularFactor, mSpecular.mTextureName);\n\tmSpecular.mColor[0] = static_cast<GLfloat>(lSpecular[0]);\n\tmSpecular.mColor[1] = static_cast<GLfloat>(lSpecular[1]);\n\tmSpecular.mColor[2] = static_cast<GLfloat>(lSpecular[2]);\n\n\tFbxProperty lShininessProperty = pMaterial->FindProperty(FbxSurfaceMaterial::sShininess);\n\tif (lShininessProperty.IsValid())\n\t{\n\t\tdouble lShininess = lShininessProperty.Get<FbxDouble>();\n\t\tmShinness = static_cast<GLfloat>(lShininess);\n\t}\n\n\treturn true;\n}\n\nvoid MaterialCache::SetCurrentMaterial() const\n{\n\tglMaterialfv(GL_FRONT, GL_EMISSION, mEmissive.mColor);\n\tglMaterialfv(GL_FRONT, GL_AMBIENT, mAmbient.mColor);\n\tglMaterialfv(GL_FRONT, GL_DIFFUSE, mDiffuse.mColor);\n\tglMaterialfv(GL_FRONT, GL_SPECULAR, mSpecular.mColor);\n\tglMaterialf(GL_FRONT, GL_SHININESS, mShinness);\n\n\tglBindTexture(GL_TEXTURE_2D, mDiffuse.mTextureName);\n}\n\nvoid MaterialCache::SetDefaultMaterial()\n{\n\tconst GLfloat BLACK_COLOR[] = {0.0f, 0.0f, 0.0f, 1.0f};\n\tconst GLfloat GREEN_COLOR[] = {0.0f, 1.0f, 0.0f, 1.0f};\n\tglMaterialfv(GL_FRONT, GL_EMISSION, BLACK_COLOR);\n\tglMaterialfv(GL_FRONT, GL_AMBIENT, BLACK_COLOR);\n\tglMaterialfv(GL_FRONT, GL_DIFFUSE, GREEN_COLOR);\n\tglMaterialfv(GL_FRONT, GL_SPECULAR, BLACK_COLOR);\n\tglMaterialf(GL_FRONT, GL_SHININESS, 0);\n\n\tglBindTexture(GL_TEXTURE_2D, 0);\n}",
 			"settings":
 			{
-				"buffer_size": 0,
-				"line_ending": "Windows",
-				"name": "GDB Callstack",
-				"read_only": true,
-				"scratch": true
-			}
-		},
-		{
-			"contents": "",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows",
-				"name": "GDB Breakpoints",
-				"read_only": true,
-				"scratch": true
-			}
-		},
-		{
-			"contents": "",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows",
-				"name": "GDB Threads",
-				"read_only": true,
-				"scratch": true
-			}
-		},
-		{
-			"contents": "",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows",
-				"name": "GDB Variables",
-				"read_only": true,
-				"scratch": true
-			}
-		},
-		{
-			"file": "/C/Users/red_w/Projects/Fathom/Fathom.sln",
-			"settings":
-			{
-				"buffer_size": 1421,
-				"encoding": "UTF-8 with BOM",
+				"buffer_size": 62465,
 				"line_ending": "Windows"
 			}
 		},
@@ -120,24 +178,23 @@
 			}
 		},
 		{
+			"contents": "#pragma once\n#include <GL\\glew.h>\n#include \"lib\\include\\fbxsdk.h\"\n#include \"targa.h\"\n\n\nclass FBXLoader\n{\npublic:\n\n\t///////////////////////////////////////////////////Variables//////////////////////////////////////////\n\n\tconst char * mFileName;\n\tmutable FbxString WindowMessage;\n\n\tmutable FbxTime mFrameTime, mStart, mStop, mCurrentTime;\n\tmutable FbxTime mCache_Start, mCache_Stop;\n\n\tFbxManager * SdkManager;\n\tFbxScene * Scene;\n\tFbxImporter * Importer;\n\tFbxAnimLayer * CurrentAnimLayer;\n\tFbxNode * SelectedNode;\n\n\tint mPoseIndex;\n\tbool SupportVBO;\n\n\tFbxArray<FbxString*> mAnimStackNameArray;\n\n\n\t/////////////////////////////////////////////////////Methods  //////////////////////////////////////////\n\tFBXLoader(const char * pFileName, int pWindowWidth, int pWindowHeight);\n\t~FBXLoader(void);\n\n\tvoid FillPoseArray(FbxScene* pScene, FbxArray<FbxPose*>& pPoseArray);\n\n\tvoid PreparePointCacheData(FbxScene* pScene, FbxTime &pCache_Start, FbxTime &pCache_Stop);\n\n\tbool LoadTextureFromFile(const FbxString & pFilePath, unsigned int & pTextureObject);//done\n\n\tvoid LoadCacheRecursive(FbxNode * pNode, FbxAnimLayer * pAnimLayer, bool pSupportVBO);//done\n\n\tvoid UnloadCacheRecursive(FbxNode * pNode); //done\n\n\tvoid LoadCacheRecursive(FbxScene * pScene, FbxAnimLayer * pAnimLayer, const char * pFbxFileName, bool pSupportVBO);//done\n\n\tvoid UnloadCacheRecursive(FbxScene * pScene);//done\n\n\tbool LoadFile();//done\n\n\tbool SetCurrentAnimStack(int pIndex);\n\n\tvoid OnTimerClick() const;\n\n\tbool Draw();\n\n\tvoid DrawNodeRecursive(FbxNode* pNode, FbxTime& pTime, FbxAnimLayer* pAnimLayer,\n\t\tFbxAMatrix& pParentGlobalPosition, FbxPose* pPose);\n\n\tFbxAMatrix GetGlobalPosition(FbxNode* pNode, const FbxTime& pTime, FbxPose* pPose = NULL, FbxAMatrix* pParentGlobalPosition = NULL);\n\n\tFbxAMatrix GetPoseMatrix(FbxPose* pPose, int pNodeIndex);\n\n\tFbxAMatrix GetGeometry(FbxNode* pNode);\n\n\tvoid DrawNode(FbxNode* pNode, FbxTime& pTime,FbxAnimLayer* pAnimLayer,FbxAMatrix& pParentGlobalPosition,\n\t\tFbxAMatrix& pGlobalPosition,FbxPose* pPose);\n\n\tvoid DrawSkeleton(FbxNode* pNode, FbxAMatrix& pParentGlobalPosition, FbxAMatrix& pGlobalPosition);\n\n\tvoid DrawMesh(FbxNode* pNode, FbxTime& pTime, FbxAnimLayer* pAnimLayer,\n\t\tFbxAMatrix& pGlobalPosition, FbxPose* pPose);\n\n\tvoid GlDrawLimbNode(FbxAMatrix& pGlobalBasePosition, FbxAMatrix& pGlobalEndPosition);\n\n\n\tvoid ReadVertexCacheData(FbxMesh* pMesh, FbxTime& pTime, FbxVector4* pVertexArray);\n\n\tvoid ComputeShapeDeformation(FbxMesh* pMesh, FbxTime& pTime, FbxAnimLayer * pAnimLayer, FbxVector4* pVertexArray);\n\n\tvoid ComputeSkinDeformation(FbxAMatrix& pGlobalPosition, FbxMesh* pMesh,  FbxTime& pTime, FbxVector4* pVertexArray, FbxPose* pPose);\n\n\tvoid ComputeLinearDeformation(FbxAMatrix& pGlobalPosition, FbxMesh* pMesh, FbxTime& pTime, FbxVector4* pVertexArray, FbxPose* pPose);\n\n\tvoid ComputeClusterDeformation(FbxAMatrix& pGlobalPosition, \n\t\tFbxMesh* pMesh,FbxCluster* pCluster, FbxAMatrix& pVertexTransformMatrix,FbxTime pTime, FbxPose* pPose);\n\n\tvoid MatrixScale(FbxAMatrix& pMatrix, double pValue);\n\n\tvoid MatrixAddToDiagonal(FbxAMatrix& pMatrix, double pValue);\n\n\tvoid MatrixAdd(FbxAMatrix& pDstMatrix, FbxAMatrix& pSrcMatrix);\n\n\tvoid ComputeDualQuaternionDeformation(FbxAMatrix& pGlobalPosition, \n\t\tFbxMesh* pMesh, FbxTime& pTime,FbxVector4* pVertexArray,FbxPose* pPose);\n\n\tvoid SetSelectedNode(FbxNode * pSelectedNode);//done\n\n\tvoid InitializeSdkObjects(FbxManager*& pManager, FbxScene*& pScene);//done\n\n\tvoid DestroySdkObjects(FbxManager* pManager, bool pExitStatus);\n\n\t// The time period for one frame.\n    const FbxTime GetFrameTime() const { return mFrameTime; }\n\n\tvoid DisplayGrid(const FbxAMatrix & pTransform);  //optional.\n\n\n};\n\n\nconst int TRIANGLE_VERTEX_COUNT = 3;\n\n// Four floats for every position.\nconst int VERTEX_STRIDE = 4;\n// Three floats for every normal.\nconst int NORMAL_STRIDE = 3;\n// Two floats for every UV.\nconst int UV_STRIDE = 2;\n\n\n// Save mesh vertices, normals, UVs and indices in GPU with OpenGL Vertex Buffer Objects\nclass VBOMesh\n{\npublic:\n\tVBOMesh();\n\t~VBOMesh();\n\n\t// Save up data into GPU buffers.\n\tbool Initialize(const FbxMesh * pMesh);\n\n\t// Update vertex positions for deformed meshes.\n\tvoid UpdateVertexPosition(const FbxMesh * pMesh, const FbxVector4 * pVertices) const;\n\n\t// Bind buffers, set vertex arrays, turn on lighting and texture.\n\tvoid BeginDraw() const;\n\t// Draw all the faces with specific material with given shading mode.\n\tvoid Draw(int pMaterialIndex) const;\n\t// Unbind buffers, reset vertex arrays, turn off lighting and texture.\n\tvoid EndDraw() const;\n\n\t// Get the count of material groups\n\tint GetSubMeshCount() const { return mSubMeshes.GetCount(); }\n\nprivate:\n\tenum\n\t{\n\t\tVERTEX_VBO,\n\t\tNORMAL_VBO,\n\t\tUV_VBO,\n\t\tINDEX_VBO,\n\t\tVBO_COUNT,\n\t};\n\n\t// For every material, record the offsets in every VBO and triangle counts\n\tstruct SubMesh\n\t{\n\t\tSubMesh() : IndexOffset(0), TriangleCount(0) {}\n\n\t\tint IndexOffset;\n\t\tint TriangleCount;\n\t};\n\n\tGLuint mVBONames[VBO_COUNT];\n\tFbxArray<SubMesh*> mSubMeshes;\n\tbool mHasNormal;\n\tbool mHasUV;\n\tbool mAllByControlPoint; // Save data in VBO by control point or by polygon vertex.\n};\n\n\n\n// Cache for FBX material\nclass MaterialCache\n{\npublic:\n\tMaterialCache();\n\t~MaterialCache();\n\n\tbool Initialize(const FbxSurfaceMaterial * pMaterial);\n\n\t// Set material colors and binding diffuse texture if exists.\n\tvoid SetCurrentMaterial() const;\n\n\tbool HasTexture() const { return mDiffuse.mTextureName != 0; }\n\n\t// Set default green color.\n\tstatic void SetDefaultMaterial();\n\n\t// Get specific property value and connected texture if any.\n\t// Value = Property value * Factor property value (if no factor property, multiply by 1).\n\tFbxDouble3 GetMaterialProperty(const FbxSurfaceMaterial * pMaterial,\n\t\tconst char * pPropertyName,\n\t\tconst char * pFactorPropertyName,\n\t\tGLuint & pTextureName)\n\t{\n\t\tFbxDouble3 lResult(0, 0, 0);\n\t\tconst FbxProperty lProperty = pMaterial->FindProperty(pPropertyName);\n\t\tconst FbxProperty lFactorProperty = pMaterial->FindProperty(pFactorPropertyName);\n\t\tif (lProperty.IsValid() && lFactorProperty.IsValid())\n\t\t{\n\t\t\tlResult = lProperty.Get<FbxDouble3>();\n\t\t\tdouble lFactor = lFactorProperty.Get<FbxDouble>();\n\t\t\tif (lFactor != 1)\n\t\t\t{\n\t\t\t\tlResult[0] *= lFactor;\n\t\t\t\tlResult[1] *= lFactor;\n\t\t\t\tlResult[2] *= lFactor;\n\t\t\t}\n\t\t}\n\n\t\tif (lProperty.IsValid())\n\t\t{\n\t\t\tconst int lTextureCount = lProperty.GetSrcObjectCount<FbxFileTexture>();\n\t\t\tif (lTextureCount)\n\t\t\t{\n\t\t\t\tconst FbxFileTexture* lTexture = lProperty.GetSrcObject<FbxFileTexture>();\n\t\t\t\tif (lTexture && lTexture->GetUserDataPtr())\n\t\t\t\t{\n\t\t\t\t\tpTextureName = *(static_cast<GLuint *>(lTexture->GetUserDataPtr()));\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\n\t\treturn lResult;\n\t}\n\nprivate:\n\tstruct ColorChannel\n\t{\n\t\tColorChannel() : mTextureName(0)\n\t\t{\n\t\t\tmColor[0] = 0.0f;\n\t\t\tmColor[1] = 0.0f;\n\t\t\tmColor[2] = 0.0f;\n\t\t\tmColor[3] = 1.0f;\n\t\t}\n\n\t\tGLuint mTextureName;\n\t\tGLfloat mColor[4];\n\t};\n\tColorChannel mEmissive;\n\tColorChannel mAmbient;\n\tColorChannel mDiffuse;\n\tColorChannel mSpecular;\n\tGLfloat mShinness;\n};\n\n\n// Property cache, value and animation curve.\nstruct PropertyChannel\n{\n\tPropertyChannel() : mAnimCurve(NULL), mValue(0.0f) {}\n\t// Query the channel value at specific time.\n\tGLfloat Get(const FbxTime & pTime) const\n\t{\n\t\tif (mAnimCurve)\n\t\t{\n\t\t\treturn mAnimCurve->Evaluate(pTime);\n\t\t}\n\t\telse\n\t\t{\n\t\t\treturn mValue;\n\t\t}\n\t}\n\n\tFbxAnimCurve * mAnimCurve;\n\tGLfloat mValue;\n};",
+			"settings":
+			{
+				"buffer_size": 7333,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "/F/Users/100429591/desktop/buckstein2/TestProjectGLSL/TestProjectGLSL/main.cpp",
 			"settings":
 			{
 				"buffer_size": 6769,
 				"line_ending": "Windows"
 			}
-		},
-		{
-			"file": "/C/Users/red_w/Projects/GLSLFathom/main.cpp",
-			"settings":
-			{
-				"buffer_size": 5894,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
 		}
 	],
-	"build_system": "Packages/C++/C++ Single File.sublime-build",
+	"build_system": "Packages/MSBuild/MSBuild.sublime-build",
 	"build_system_choices":
 	[
 		[
@@ -195,9 +252,33 @@
 				"Packages/Default/Syntax Tests.sublime-build",
 				"All Syntaxes"
 			]
+		],
+		[
+			[
+				[
+					"Packages/MSBuild/MSBuild.sublime-build",
+					""
+				],
+				[
+					"Packages/MSBuild/MSBuild.sublime-build",
+					"Parallel Build"
+				],
+				[
+					"Packages/MSBuild/MSBuild.sublime-build",
+					"Debug Configuration"
+				],
+				[
+					"Packages/MSBuild/MSBuild.sublime-build",
+					"Release Configuration"
+				]
+			],
+			[
+				"Packages/MSBuild/MSBuild.sublime-build",
+				"Debug Configuration"
+			]
 		]
 	],
-	"build_varint": "Run",
+	"build_varint": "Debug Configuration",
 	"command_palette":
 	{
 		"height": 0.0,
@@ -205,11 +286,23 @@
 		"selected_items":
 		[
 			[
-				"instal",
-				"Package Control: Install Package"
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
 			],
 			[
 				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sublime bu",
+				"SublimeLinter: Reload SublimeLinter and its Plugins"
+			],
+			[
+				"instal",
 				"Package Control: Install Package"
 			],
 			[
@@ -366,8 +459,21 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/Users/red_w/Projects/Fathom/Fathom/include"
+	],
 	"file_history":
 	[
+		"/C/Users/red_w/AppData/Roaming/Sublime Text 3/Packages/EasyClangComplete/Preferences.sublime-settings",
+		"/C/Users/red_w/AppData/Roaming/Sublime Text 3/Installed Packages/MSBuild selector.sublime-package",
+		"/C/Users/red_w/Projects/Fathom/Fathom/FBXFathom.h",
+		"/F/Users/100429591/desktop/game development and ent/Game Development/SHFTed/NGenesis/Skin.cpp",
+		"/C/Users/red_w/Projects/Fathom/Fathom/Include/fbxsdk.h",
+		"/C/Program Files/Autodesk/FBX/FBX SDK/2020.0.1/include/fbxsdk.h",
+		"/C/Users/red_w/Projects/Fathom/Fathom/GLSLFathom.h",
+		"/C/Users/red_w/Rainmeter/Skins/Galaxy Suite/Clock/Clock.ini",
+		"/C/Users/red_w/Projects/GLSLFathom/main.cpp",
 		"/C/Users/red_w/Projects/Fathom/Fathom/Shader.cpp",
 		"/C/Users/red_w/Projects/Fathom/Fathom/main2.cpp",
 		"/C/Users/red_w/Resources/AHK/focuswindow.ahk",
@@ -393,7 +499,6 @@
 		"/C/Users/red_w/Rainmeter/Skins/Cityscapes/Background/ResolutionBGs/1920.ini",
 		"/C/Users/red_w/Resources/AHK/ahkfocus.ahk",
 		"/C/Users/red_w/AppData/Roaming/AIMP/Skins/Koyna_RN.acs4",
-		"/C/Users/red_w/Rainmeter/Skins/Galaxy Suite/Clock/Clock.ini",
 		"/C/Users/red_w/AppData/Roaming/AIMP/Skins/Telos v1.0.acs4.ini",
 		"/C/Users/red_w/Projects/OpenGL/freeglut-3.2.1/README",
 		"/C/Users/red_w/Projects/OpenGL/freeglut-3.2.1/doc/freeglut.html",
@@ -417,7 +522,6 @@
 		"/C/Users/red_w/AppData/Roaming/Sublime Text 3/Packages/User/Default.sublime-keymap",
 		"/C/Users/red_w/AppData/Roaming/Sublime Text 3/Packages/Zen Tabs/ZenTabs.sublime-settings",
 		"/F/Users/100429591/desktop/Normal Mapping/TestProjectGLSL/resource/shaders/tangentSpaceNormals_v.glsl",
-		"/C/Users/red_w/Projects/Fathom/Fathom/GLSLFathom.h",
 		"/F/Users/100429591/desktop/Normal Mapping/TestProjectGLSL/resource/shaders/tangentSpaceNormals_f.glsl",
 		"/C/Users/red_w/Projects/Fathom/Fathom/main.cpp",
 		"/F/Users/100429591/desktop/Normal Mapping/TestProjectGLSL/resource/shaders/objectSpaceNormals_f.glsl",
@@ -488,18 +592,11 @@
 		"/C/Users/red_w/Repository/ChikinBlitz/fingerBlitz/Assets/scripts/GameManager.cs",
 		"/C/Users/red_w/AppData/Roaming/Sublime Text 3/Installed Packages/SublimeLinter-contrib-csharplint.sublime-package",
 		"/C/Users/red_w/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
-		"/C/Users/red_w/Downloads/Noise.cs",
-		"/C/Users/red_w/Downloads/SimplexNoiseCubes.cs",
-		"/C/Users/red_w/Downloads/SimplexNoiseExample.cs",
-		"/C/Users/red_w/OneDrive/Desktop/Console2/console.xml",
-		"/C/Users/red_w/OneDrive/Documents/Rainmeter/Skins/Shield Complete/Avengers - Tweaked/Config.inc",
-		"/C/Users/red_w/Repository/ChikinBlitz/fingerBlitz/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Info.plist",
-		"/C/Users/red_w/AppData/Local/Plex Media Server/Plug-ins/PhoenixAdult.bundle/README.md",
-		"/C/Users/red_w/AppData/Local/Plex Media Server/Plug-ins/AdultDVDEmpire.bundle/README.md"
+		"/C/Users/red_w/Downloads/Noise.cs"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 46.0
 	},
 	"find_in_files":
 	{
@@ -513,6 +610,25 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"target",
+			"fbohandle",
+			"fbohan",
+			"dude",
+			"colourtexture",
+			"colortexture",
+			"fbohandle",
+			"lightpos",
+			"GL_",
+			"vbomesh",
+			"draw",
+			"DefaultTargets",
+			"defaulttargets",
+			"def",
+			"file",
+			"gldraw",
+			";\n",
+			"idle",
+			"init im",
 			"resha",
 			"resize",
 			"window",
@@ -621,14 +737,7 @@
 			"switch",
 			"layermas",
 			"rand",
-			"toarra",
-			"gamelayo",
-			"loadleve",
-			"high",
-			"vertices[index].normalized",
-			"noise",
-			"         vertices[index] = vertices[index].normalized;\n",
-			"vertices[i"
+			"toarra"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -636,6 +745,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"#include <iostream>\n"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -646,7 +756,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -655,15 +765,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12547,
+						"buffer_size": 12562,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								285,
-								285
+								58,
+								38
 							]
 						],
 						"settings":
@@ -683,33 +793,292 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "Include.h",
+					"file": "/C/Users/red_w/Rainmeter/Skins/Enigma/Taskbar/_Extras/_Template/Template-Mini.ini",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 176,
+						"buffer_size": 698,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								176,
-								176
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"syntax": "Packages/Rainmeter/Rainmeter.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Model.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 60706,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								2
+							]
+						],
+						"settings":
+						{
+							"SL.475.region_keys":
+							[
+								"SL.clang++.Highlights.|7d315e037c2ea1d89683048e8739359610c38905f2a64fcd9429d265993f21ae|region.redish markup.error.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.clang++.Gutter.|region.redish markup.error.sublime_linter|dot"
+							],
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"syntax": "Packages/C++11/C++11.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 342.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Model.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8720,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3,
+								3
+							]
+						],
+						"settings":
+						{
+							"SL.476.region_keys":
+							[
+								"SL.clang++.Highlights.|bccd801cd9b7febc3ec02b409ff73fab58326f1ba3bd5a12fc17ae0a7383847b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.clang++.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"sublime_linter.protected_regions",
+								"SL.clang++.Gutter.|region.redish markup.error.sublime_linter|dot",
+								"SL.clang++.Highlights.|9e1c4123739000b2b3a8c3f521cce61218a3dd1fcc1aac522c006094b9d56763|region.redish markup.error.sublime_linter|32"
+							],
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "FBO.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3038,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								173,
+								173
+							]
+						],
+						"settings":
+						{
+							"SL.535.region_keys":
+							[
+								"sublime_linter.protected_regions",
+								"SL.clang++.Highlights.|b08c5e4441a8fe16e6e4ab594f22aec1b4645eba672e995dcdfc4d2722306d3e|region.redish markup.error.sublime_linter|32",
+								"SL.clang++.Gutter.|region.redish markup.error.sublime_linter|dot"
+							],
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"syntax": "Packages/C++11/C++11.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "include/GL/glew.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1307079,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27046,
+								27046
+							]
+						],
+						"settings":
+						{
+							"SL.539.region_keys":
+							[
+							],
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 170.0,
+						"translation.y": 16072.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Texture.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1062,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.537.region_keys":
+							[
+								"sublime_linter.protected_regions",
+								"SL.clang++.Highlights.|a34d6b99dfaa9e4583892a5e7440afc8facb7350c0c28f2a541b0c67266eb253|region.redish markup.error.sublime_linter|32",
+								"SL.clang++.Gutter.|region.redish markup.error.sublime_linter|dot"
+							],
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"syntax": "Packages/C++11/C++11.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Texture.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 468,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.538.region_keys":
+							[
+								"SL.clang++.Highlights.|db51edfb61da70df29703a7401824be22bf40e709348ae22e41e82d29c64913c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.clang++.Highlights.|d365e195cff0a16e2adbec2d77bf1fa2c123da12319708351f07d3fbf950870e|region.redish markup.error.sublime_linter|32",
+								"SL.clang++.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"sublime_linter.protected_regions",
+								"SL.clang++.Gutter.|region.redish markup.error.sublime_linter|dot"
+							],
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "Include.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 175,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								175,
+								154
 							]
 						],
 						"settings":
 						{
 							"SL.318.region_keys":
 							[
+								"SL.clang++.Highlights.|a7a771879e7e9c60aa9c3b309857991284dd3832a814bd2dbabc2364f4d552c6|region.redish markup.error.sublime_linter|32",
 								"SL.clang++.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
 								"sublime_linter.protected_regions",
-								"SL.clang++.Highlights.|dd60682c373b52a3c65b36811f4a52bc3eb7a8ebf71ff88a99318041068b5f9e|region.redish markup.error.sublime_linter|32",
 								"SL.clang++.Highlights.|e5be883edca7697d0ce1b1525650a00fa077977f65319cbb6b0ada48f1d98cd0|region.yellowish markup.warning.sublime_linter|32",
 								"SL.clang++.Gutter.|region.redish markup.error.sublime_linter|dot"
 							],
@@ -722,44 +1091,235 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 9,
+					"file": "Matrix.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 328,
+						"buffer_size": 21815,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								50,
-								50
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_indent": false,
+							"SL.531.region_keys":
+							[
+							],
 							"glsv_configured": true,
 							"glsv_enabled": 1,
 							"glsv_spec": 0,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_width": 2,
-							"word_wrap": true
+							"syntax": "Packages/C++11/C++11.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 475.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 10,
+					"file": "/C/Users/red_w/Projects/Fathom/Fathom.sln",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1421,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.75.region_keys":
+							[
+							],
+							"SL.77.region_keys":
+							[
+							],
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/Users/red_w/AppData/Roaming/Sublime Text 3/Packages/EasyClangComplete/EasyClangComplete.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1615,
+								1615
+							]
+						],
+						"settings":
+						{
+							"SL.620.region_keys":
+							[
+							],
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 266.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 12,
+					"file": "FBO.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 705,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								545,
+								557
+							]
+						],
+						"settings":
+						{
+							"SL.536.region_keys":
+							[
+								"SL.clang++.Highlights.|bec32ad2d8d215660c16dfd81c22b3e657d6e0829663dd24b565b3ceae61bfd2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.clang++.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"sublime_linter.protected_regions",
+								"SL.clang++.Gutter.|region.redish markup.error.sublime_linter|dot",
+								"SL.clang++.Highlights.|1fe63fa0dd34d6aec0f4dc05f49c61399d835c040e7ca1591bc8800ce88bc4eb|region.redish markup.error.sublime_linter|32"
+							],
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "Fathom.vcxproj",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8861,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								62
+							]
+						],
+						"settings":
+						{
+							"SL.463.region_keys":
+							[
+							],
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"syntax": "Packages/MSBuild/MSBuild.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/C/Users/red_w/Projects/Fathom/Fathom.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1596,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1234,
+								1234
+							]
+						],
+						"settings":
+						{
+							"SL.362.region_keys":
+							[
+							],
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
 					"semi_transient": false,
 					"settings":
 					{
@@ -779,6 +1339,9 @@
 							"SL.76.region_keys":
 							[
 							],
+							"SL.78.region_keys":
+							[
+							],
 							"auto_name": "MS BUILD CMD",
 							"glsv_configured": true,
 							"glsv_enabled": 1,
@@ -789,173 +1352,45 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 16,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 62465,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								5406,
+								5406
 							]
 						],
 						"settings":
 						{
-							"glsv_configured": true,
-							"glsv_enabled": 1,
-							"glsv_spec": 0,
-							"syntax": "Packages/C++/C++.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"glsv_configured": true,
-							"glsv_enabled": 1,
-							"glsv_spec": 0,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"glsv_configured": true,
-							"glsv_enabled": 1,
-							"glsv_spec": 0,
-							"syntax": "Packages/C++/C++.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"glsv_configured": true,
-							"glsv_enabled": 1,
-							"glsv_spec": 0,
-							"syntax": "Packages/C++/C++.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 3,
-			"sheets":
-			[
-				{
-					"buffer": 8,
-					"file": "/C/Users/red_w/Projects/Fathom/Fathom.sln",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1421,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								305,
-								305
-							]
-						],
-						"settings":
-						{
-							"SL.77.region_keys":
+							"SL.532.region_keys":
 							[
 							],
 							"glsv_configured": true,
 							"glsv_enabled": 1,
 							"glsv_spec": 0,
-							"syntax": "Packages/XML/XML.sublime-syntax",
+							"syntax": "Packages/Unity Shader/UnityShader-CG.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3268.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 17,
 					"semi_transient": false,
 					"settings":
 					{
@@ -972,6 +1407,9 @@
 						],
 						"settings":
 						{
+							"SL.74.region_keys":
+							[
+							],
 							"auto_name": "dump",
 							"glsv_configured": true,
 							"glsv_enabled": 1,
@@ -982,11 +1420,50 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 19,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 18,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3666,
+								5099
+							]
+						],
+						"settings":
+						{
+							"SL.512.region_keys":
+							[
+								"SL.clang.Highlights.|9e26276b66437a61ee8b3bfb74ab1d01a816b035adee16ac31fea20d2c7d2a78|region.redish markup.error.sublime_linter|32",
+								"SL.clang.Gutter.|region.redish markup.error.sublime_linter|dot",
+								"sublime_linter.protected_regions",
+								"SL.clang.Highlights.|39cc4057a788427ab237ac234c2cf2cc45acbf3fbaee546c62838235d470bf7a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.clang.Gutter.|region.yellowish markup.warning.sublime_linter|dot"
+							],
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"syntax": "Packages/Unity Shader/UnityShader-CG.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 543.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
 					"file": "/F/Users/100429591/desktop/buckstein2/TestProjectGLSL/TestProjectGLSL/main.cpp",
 					"semi_transient": false,
 					"settings":
@@ -998,8 +1475,8 @@
 						"selection":
 						[
 							[
-								4297,
-								4301
+								2256,
+								2275
 							]
 						],
 						"settings":
@@ -1020,51 +1497,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4283.0,
+						"translation.y": 673.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "/C/Users/red_w/Projects/GLSLFathom/main.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5894,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1072,
-								1047
-							]
-						],
-						"settings":
-						{
-							"SL.100.region_keys":
-							[
-							],
-							"SL.76.region_keys":
-							[
-								"sublime_linter.protected_regions",
-								"SL.clang++.Gutter.|region.redish markup.error.sublime_linter|dot",
-								"SL.clang++.Highlights.|e85f2cf03740adc33258482e3eecc00e3511b7a2da6fb5856de7511aa497f9da|region.redish markup.error.sublime_linter|32"
-							],
-							"glsv_configured": true,
-							"glsv_enabled": 1,
-							"glsv_spec": 0,
-							"syntax": "Packages/C++11/C++11.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 882.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
+					"stack_index": 13,
 					"type": "text"
 				}
 			]
@@ -1098,7 +1534,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.530727080964,
 			1.0
 		],
 		"rows":
@@ -1114,13 +1550,13 @@
 	},
 	"output.exec":
 	{
-		"height": 156.0
+		"height": 94.0
 	},
 	"output.find_results":
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "Packages/MSBuild selector/MSBuildSelector.sublime-build",
+	"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
 	"project": "Fathom.sublime-project",
 	"replace":
 	{

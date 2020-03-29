@@ -1,1 +1,102 @@
-﻿
+﻿  Conversions.cpp
+C:\Users\red_w\Projects\Fathom\Fathom\Conversions.cpp(43,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Conversions.cpp(50,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  FBO.cpp
+C:\Users\red_w\Projects\Fathom\Fathom\FBO.cpp(8,26): error C3867: 'std::vector<unsigned int,std::allocator<unsigned int>>::reserve': non-standard syntax; use '&' to create a pointer to member
+C:\Users\red_w\Projects\Fathom\Fathom\FBO.cpp(47,47): error C2679: binary '&&': no operator found which takes a right-hand operand of type 'std::vector<unsigned int,std::allocator<unsigned int>>' (or there is no acceptable conversion)
+C:\Users\red_w\Projects\Fathom\Fathom\FBO.cpp(47,47): message : could be 'built-in C++ operator&&(bool, bool)'
+C:\Users\red_w\Projects\Fathom\Fathom\FBO.cpp(47,47): message : while trying to match the argument list '(overloaded-function, std::vector<unsigned int,std::allocator<unsigned int>>)'
+C:\Users\red_w\Projects\Fathom\Fathom\FBO.cpp(55,38): error C3867: 'std::vector<unsigned int,std::allocator<unsigned int>>::size': non-standard syntax; use '&' to create a pointer to member
+C:\Users\red_w\Projects\Fathom\Fathom\FBO.cpp(55,70): error C3867: 'std::vector<unsigned int,std::allocator<unsigned int>>::get_allocator': non-standard syntax; use '&' to create a pointer to member
+C:\Users\red_w\Projects\Fathom\Fathom\FBO.cpp(57,29): error C3867: 'std::vector<unsigned int,std::allocator<unsigned int>>::size': non-standard syntax; use '&' to create a pointer to member
+C:\Users\red_w\Projects\Fathom\Fathom\FBO.cpp(57,29): error C2446: '<': no conversion from 'unsigned int (__thiscall std::vector<unsigned int,std::allocator<unsigned int>>::* )(void) noexcept const' to 'unsigned int'
+C:\Users\red_w\Projects\Fathom\Fathom\FBO.cpp(57,24): message : There is no context in which this conversion is possible
+C:\Users\red_w\Projects\Fathom\Fathom\FBO.cpp(115,41): error C3867: 'std::vector<unsigned int,std::allocator<unsigned int>>::size': non-standard syntax; use '&' to create a pointer to member
+C:\Users\red_w\Projects\Fathom\Fathom\FBO.cpp(115,73): error C3867: 'std::vector<unsigned int,std::allocator<unsigned int>>::get_allocator': non-standard syntax; use '&' to create a pointer to member
+C:\Users\red_w\Projects\Fathom\Fathom\FBO.cpp(117,40): error C3867: 'std::vector<unsigned int,std::allocator<unsigned int>>::get_allocator': non-standard syntax; use '&' to create a pointer to member
+C:\Users\red_w\Projects\Fathom\Fathom\FBO.cpp(117,78): error C3867: 'std::vector<unsigned int,std::allocator<unsigned int>>::size': non-standard syntax; use '&' to create a pointer to member
+C:\Users\red_w\Projects\Fathom\Fathom\FBO.cpp(117,78): error C2296: '*': illegal, left operand has type 'unsigned int (__thiscall std::vector<unsigned int,std::allocator<unsigned int>>::* )(void) noexcept const'
+C:\Users\red_w\Projects\Fathom\Fathom\FBO.cpp(117,78): error C2660: 'memset': function does not take 2 arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\vcruntime_string.h(63,15): message : see declaration of 'memset'
+  Lighting.cpp
+C:\Users\red_w\Projects\Fathom\Fathom\Lighting.cpp(35,45): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\red_w\Projects\Fathom\Fathom\Lighting.cpp(36,45): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\red_w\Projects\Fathom\Fathom\Lighting.cpp(37,46): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\red_w\Projects\Fathom\Fathom\Lighting.cpp(38,36): warning C4305: 'initializing': truncation from 'double' to 'float'
+  main2.cpp
+C:\Users\red_w\Projects\Fathom\Fathom\main2.cpp(73,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\red_w\Projects\Fathom\Fathom\main2.cpp(76,43): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\red_w\Projects\Fathom\Fathom\main2.cpp(77,49): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\red_w\Projects\Fathom\Fathom\main2.cpp(145,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\main2.cpp(145,21): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\main2.cpp(149,48): warning C4244: '=': conversion from 'double' to 'unsigned int', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\main2.cpp(151,50): warning C4244: '=': conversion from 'double' to 'unsigned int', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\main2.cpp(174,30): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+C:\Users\red_w\Projects\Fathom\Fathom\main2.cpp(205,23): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\main2.cpp(206,22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\main2.cpp(207,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\main2.cpp(228,22): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\main2.cpp(247,22): warning C4305: '*=': truncation from 'double' to 'float'
+C:\Users\red_w\Projects\Fathom\Fathom\main2.cpp(253,22): warning C4305: '/=': truncation from 'double' to 'float'
+C:\Users\red_w\Projects\Fathom\Fathom\main2.cpp(319,35): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\main2.cpp(320,35): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\main2.cpp(332,42): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\main2.cpp(333,42): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\main2.cpp(418,27): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\main2.cpp(429,46): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\red_w\Projects\Fathom\Fathom\main2.cpp(430,45): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\red_w\Projects\Fathom\Fathom\main2.cpp(431,46): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\red_w\Projects\Fathom\Fathom\main2.cpp(432,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Matrix.cpp
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(85,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(86,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(94,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(95,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(103,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(104,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(517,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(523,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(529,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(530,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(548,43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(548,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(548,13): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(551,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(551,13): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(551,8): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(564,81): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(567,81): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(570,81): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(546,9): warning C4101: 'mag': unreferenced local variable
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(626,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(626,49): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(627,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(627,70): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(629,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(629,49): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(630,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(630,70): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(632,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(632,49): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(633,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(633,70): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(643,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(693,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(821,35): warning C4244: '=': conversion from 'GLint' to 'float', possible loss of data
+  Model.cpp
+C:\Users\red_w\Projects\Fathom\Fathom\Model.cpp(327,40): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Model.cpp(328,44): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Model.cpp(329,44): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Model.cpp(1655,42): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Model.cpp(1655,35): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+  Shader.cpp
+C:\Users\red_w\Projects\Fathom\Fathom\Shader.cpp(39,20): warning C4244: 'initializing': conversion from 'std::streamoff' to 'unsigned long', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Shader.cpp(41,20): warning C4244: 'initializing': conversion from 'std::streamoff' to 'unsigned long', possible loss of data
+C:\Users\red_w\Projects\Fathom\Fathom\Shader.cpp(104,20): warning C4018: '<': signed/unsigned mismatch
+  Texture.cpp
+  Vector3f.cpp
+C:\Users\red_w\Projects\Fathom\Fathom\Vector3f.cpp(79,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(267): warning C4172: returning address of local variable or temporary: result
+C:\Users\red_w\Projects\Fathom\Fathom\Matrix.cpp(491): warning C4715: 'Matrix::getDeterminant': not all control paths return a value
+C:\Users\red_w\Projects\Fathom\Fathom\Conversions.cpp(64): warning C4172: returning address of local variable or temporary: result
